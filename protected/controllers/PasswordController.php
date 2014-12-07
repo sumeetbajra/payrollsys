@@ -13,7 +13,7 @@ class PasswordController extends Controller
 		$mail->Host = 'smtp.ntc.net.np';  // Specify main and backup SMTP servers
 		//$mail->SMTPAuth = true;                               // Enable SMTP authentication
 		$mail->Username = 'sbajracharya@mdevsolutions.com';                 // SMTP username
-		$mail->Password = 'nazionale55';                           // SMTP password
+		$mail->Password = '';                           // SMTP password
 		//$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 		$mail->Port = 25;                                    // TCP port to connect to
 		$mail->SMTPDebug = 1;

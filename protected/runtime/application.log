@@ -21115,3 +21115,48 @@ Stack trace:
 REQUEST_URI=/test/themes/blackboot/css/jquery.circlify.css
 HTTP_REFERER=http://localhost/test/Staff/salarySheet
 ---
+2014/12/06 12:35:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Site/index
+---
+2014/12/06 12:35:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2014/12/06 12:35:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2014/12/06 12:35:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/departAttendanceReport
+---
+2014/12/06 12:35:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/attendanceDetail/2
+---
