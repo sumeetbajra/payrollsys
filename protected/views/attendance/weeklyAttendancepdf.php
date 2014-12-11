@@ -23,8 +23,7 @@ table thead tr th{
 }
 </style>
 <div class="logo">
-	<!-- <img src="<?php echo Yii::app()->basePath. '/../images/logo.png' ?>" height="50"> Third Pole Connects<br> -->
-	<img src="C://wamp/www/payrollse/images/logo.png"> <br><span class="title">Third Pole Connects</span> <br>
+	<img src="<?php echo Yii::app()->basePath. '/../images/logo.png' ?>"><br><span class="title">Third Pole Connects</span><br> 
 	Kamalpokhari, Kathmandu<br>
 	Contact: 9841897727, 014357273<br>
 	Email: info@thirdpoleconnects.org
@@ -34,8 +33,15 @@ $staff = Staff::model()->findByPk($id);
 ?>
 <span style="font-size:14px;">Weekly Attendance Report</span><br>
 Date: 7th December, 2014 to 12th December, 2014<br>
-
-<?php if(count($attendances) > 1) { ?>
+<?php 
+$num = 0;
+foreach ($attendances  as $key=>$value) {
+	if(is_object($value)){
+		$num += 1;
+	}
+}
+?>
+<?php if($num >= 1) { ?>
 Department: <?php echo Department::model()->findByPk($id)->department_name; ?><br><br>
 	<?php foreach ($attendances as $staff=>$attendance) { ?>
 
@@ -50,7 +56,8 @@ Staff Name: <?php echo $staff->fname, " ", $staff->lname; ?><br>
     'id'=>'attendance-grid',
     'dataProvider'=>$attendance,
     'type'=>'striped bordered',
-    'template'=>'{pager}{items}{pager}',
+    'enablePagination'=>false,
+    'template'=>'{items}',
     'columns'=>array(
         array(
             'header'=>'S.N',
@@ -92,7 +99,8 @@ Department: <?php echo Department::model()->findByPk($staff->department_id)->dep
     'id'=>'attendance-grid',
     'dataProvider'=>$attendances,
     'type'=>'striped bordered',
-    'template'=>'{summary}{pager}{items}{pager}',
+    'enablePagination'=>false,
+    'template'=>'{items}',
     'columns'=>array(
         array(
             'header'=>'S.N',

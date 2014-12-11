@@ -120,11 +120,14 @@ class Attendance extends CActiveRecord
 		return $attendances;
 	}
 
-	public function thisWeekSearch1($staff_id){
-		$sunday = strtotime('last sunday', strtotime('tomorrow'));
-		$friday = strtotime('next saturday', strtotime('yesterday'));
-		for ($i=0; $i < 6 ; $i++) { 
-			$date = date('Y-m-d', $sunday);
+	public function thisWeekSearch1($staff_id=0, $from = 0, $to = 0){
+		if($from == 0 && $to == 0){
+			$from = strtotime('last sunday', strtotime('tomorrow'));
+			$to = strtotime('next saturday', strtotime('yesterday'));
+		}
+		$number = floor(abs($to - $from)/86400);
+		for ($i=0; $i < $number ; $i++) { 
+			$date = date('Y-m-d', $from);
 			$sql = "SELECT * FROM attendance WHERE staff_id = $staff_id AND FROM_UNIXTIME(login, '%Y-%m-%d') = '$date'";
 			$sql = Yii::app()->db->createCommand($sql)->queryRow();
 			if(empty($sql)){
@@ -145,7 +148,10 @@ class Attendance extends CActiveRecord
 					'logout_time'	=> (empty($sql['logout']) ? '-' : date('H:i a', $sql['logout'])), 
 					'logout_status'=> $sql['logout_status']);
 			}
-			$sunday += 86400;
+			$from += 86400;
+		}
+		if(empty($result)){
+			$result = array();
 		}
 		$dataProvider=new CArrayDataProvider($result, array(
 		'keyField'=>false,

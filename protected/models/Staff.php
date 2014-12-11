@@ -243,9 +243,9 @@ class Staff extends CActiveRecord
 		}else{
 			return '0';
 		}
-		
-
 	}
 
-	
+	public function getFullName() {
+    		return $this->fname . ' ' . $this->lname;
+	}	
 }

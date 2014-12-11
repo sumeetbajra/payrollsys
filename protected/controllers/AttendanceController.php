@@ -15,6 +15,24 @@ class AttendanceController extends Controller
 		$this->render('departAttendanceReport', array('model'=>$model, 'departs'=>$departs, 'departId'=>$departId));
 	}
 
+	public function actionCustomAttendanceReport(){
+		$staffs = CHtml::listData(Staff::model()->findAll(), 'staff_id', 'fullName');
+		$model = new Attendance;
+		$attendance = $model->thisWeekSearch1();
+		if(isset($_GET['staff']) || isset($_GET['from_date']) || isset($_GET['to_date'])){
+			$id = (isset($_GET['staff']) ? (int) $_GET['staff'] : 0);
+			$from = (isset($_GET['from_date']) ? strtotime($_GET['from_date']) : 0);
+			$to = (isset($_GET['to_date']) ? strtotime($_GET['to_date']) : 0);
+			Yii::app()->session['id'] = $id;
+			Yii::app()->session['from'] = $from;
+			Yii::app()->session['to'] = $to;
+			$attendance = $model->thisWeekSearch1($id, $from, $to);
+		}else{
+			$attendance = new CArrayDataProvider(array());
+		}
+		$this->render('customAttendanceReport', array('model'=>$model, 'staffs'=>$staffs, 'attendance'=>$attendance));
+	}
+
 	// Uncomment the following methods and override them if needed
 	/*
 	public function filters()

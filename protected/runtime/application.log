@@ -23059,3 +23059,1063 @@ Stack trace:
 REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
 HTTP_REFERER=http://localhost/payrollse/Attendance/departAttendanceReport
 ---
+2014/12/11 16:06:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/allowances/admin
+---
+2014/12/11 16:06:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/salarySheet
+---
+2014/12/11 16:06:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/salarySheet
+---
+2014/12/11 16:06:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/salarySheet
+---
+2014/12/11 16:08:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/departAttendanceReport
+---
+2014/12/11 16:08:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/admin
+---
+2014/12/11 16:08:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2014/12/11 16:08:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2014/12/11 16:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/update/11
+---
+2014/12/11 16:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/11
+---
+2014/12/11 16:09:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/viewAllowance/11
+---
+2014/12/11 16:10:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/view/11
+---
+2014/12/11 16:10:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Site/Index
+---
+2014/12/11 16:10:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/departAttendanceReport
+---
+2014/12/11 16:10:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/attendanceDetail/10
+---
+2014/12/11 16:11:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/departAttendanceReport
+---
+2014/12/11 16:11:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/attendanceDetail/1
+---
+2014/12/11 16:35:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/attendanceDetail/10
+---
+2014/12/11 16:36:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/departAttendanceReport
+---
+2014/12/11 16:38:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/departAttendanceReport
+---
+2014/12/11 16:38:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2014/12/11 16:38:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2014/12/11 16:42:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "customSearch".' in C:\wamp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\yii\framework\web\CController.php(270): CController->missingAction('customSearch')
+#1 C:\wamp\yii\framework\web\CWebApplication.php(282): CController->run('customSearch')
+#2 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Staff/customSea...')
+#3 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/payrollse/Staff/customSearch
+HTTP_REFERER=http://localhost/payrollse/Attendance/departAttendanceReport
+---
+2014/12/11 16:42:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/customSearch
+---
+2014/12/11 16:43:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "customAttendanceReport".' in C:\wamp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\yii\framework\web\CController.php(270): CController->missingAction('customAttendanc...')
+#1 C:\wamp\yii\framework\web\CWebApplication.php(282): CController->run('customAttendanc...')
+#2 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Staff/customAtt...')
+#3 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/payrollse/Staff/customAttendanceReport
+---
+2014/12/11 16:43:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/customAttendanceReport
+---
+2014/12/11 16:43:33 [error] [php] Undefined variable: departId (C:\wamp\www\payrollse\protected\views\attendance\customAttendanceReport.php:40)
+Stack trace:
+#0 C:\wamp\yii\framework\web\CController.php(869): AttendanceController->renderFile()
+#1 C:\wamp\yii\framework\web\CController.php(782): AttendanceController->renderPartial()
+#2 C:\wamp\www\payrollse\protected\controllers\AttendanceController.php(21): AttendanceController->render()
+#3 C:\wamp\yii\framework\web\actions\CInlineAction.php(49): AttendanceController->actionCustomAttendanceReport()
+#4 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\yii\framework\web\CController.php(286): AttendanceController->runAction()
+#6 C:\wamp\yii\framework\web\CController.php(265): AttendanceController->runActionWithFilters()
+#7 C:\wamp\yii\framework\web\CWebApplication.php(282): AttendanceController->run()
+#8 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\payrollse\index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Attendance/customAttendanceReport
+in C:\wamp\www\payrollse\protected\views\attendance\customAttendanceReport.php (40)
+in C:\wamp\www\payrollse\protected\controllers\AttendanceController.php (21)
+in C:\wamp\www\payrollse\index.php (13)
+2014/12/11 16:44:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 16:45:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 16:47:05 [error] [php] Undefined variable: departs (C:\wamp\www\payrollse\protected\views\attendance\customAttendanceReport.php:24)
+Stack trace:
+#0 C:\wamp\yii\framework\web\CController.php(869): AttendanceController->renderFile()
+#1 C:\wamp\yii\framework\web\CController.php(782): AttendanceController->renderPartial()
+#2 C:\wamp\www\payrollse\protected\controllers\AttendanceController.php(21): AttendanceController->render()
+#3 C:\wamp\yii\framework\web\actions\CInlineAction.php(49): AttendanceController->actionCustomAttendanceReport()
+#4 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\yii\framework\web\CController.php(286): AttendanceController->runAction()
+#6 C:\wamp\yii\framework\web\CController.php(265): AttendanceController->runActionWithFilters()
+#7 C:\wamp\yii\framework\web\CWebApplication.php(282): AttendanceController->run()
+#8 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\payrollse\index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Attendance/customAttendanceReport
+in C:\wamp\www\payrollse\protected\views\attendance\customAttendanceReport.php (24)
+in C:\wamp\www\payrollse\protected\controllers\AttendanceController.php (21)
+in C:\wamp\www\payrollse\index.php (13)
+2014/12/11 16:47:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 16:50:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 16:50:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 16:50:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 16:51:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 16:52:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 16:53:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 16:55:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 16:55:22 [error] [exception.CException] exception 'CException' with message 'Property "TbButton.class" is not defined.' in C:\wamp\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('class', 'span3')
+#1 C:\wamp\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(AttendanceController), 'bootstrap.widge...', Array)
+#2 C:\wamp\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\wamp\www\payrollse\protected\views\attendance\customAttendanceReport.php(54): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\wamp\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\pay...')
+#5 C:\wamp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pay...', Array, true)
+#6 C:\wamp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pay...', Array, true)
+#7 C:\wamp\yii\framework\web\CController.php(782): CController->renderPartial('customAttendanc...', Array, true)
+#8 C:\wamp\www\payrollse\protected\controllers\AttendanceController.php(21): CController->render('customAttendanc...', Array)
+#9 C:\wamp\yii\framework\web\actions\CInlineAction.php(49): AttendanceController->actionCustomAttendanceReport()
+#10 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\wamp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp\yii\framework\web\CWebApplication.php(282): CController->run('customAttendanc...')
+#14 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Attendance/cust...')
+#15 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 16:55:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 16:56:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 16:56:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 16:57:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 16:57:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 16:57:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 17:02:09 [error] [php] Missing argument 1 for Attendance::thisWeekSearch1(), called in C:\wamp\www\payrollse\protected\controllers\AttendanceController.php on line 21 and defined (C:\wamp\www\payrollse\protected\models\Attendance.php:123)
+Stack trace:
+#0 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\yii\framework\web\CController.php(286): AttendanceController->runAction()
+#2 C:\wamp\yii\framework\web\CController.php(265): AttendanceController->runActionWithFilters()
+#3 C:\wamp\yii\framework\web\CWebApplication.php(282): AttendanceController->run()
+#4 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\payrollse\index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Attendance/customAttendanceReport
+in C:\wamp\www\payrollse\protected\models\Attendance.php (123)
+in C:\wamp\www\payrollse\protected\controllers\AttendanceController.php (21)
+in C:\wamp\www\payrollse\index.php (13)
+2014/12/11 17:02:53 [error] [php] Missing argument 1 for Attendance::thisWeekSearch1(), called in C:\wamp\www\payrollse\protected\controllers\AttendanceController.php on line 21 and defined (C:\wamp\www\payrollse\protected\models\Attendance.php:123)
+Stack trace:
+#0 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\yii\framework\web\CController.php(286): AttendanceController->runAction()
+#2 C:\wamp\yii\framework\web\CController.php(265): AttendanceController->runActionWithFilters()
+#3 C:\wamp\yii\framework\web\CWebApplication.php(282): AttendanceController->run()
+#4 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\payrollse\index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Attendance/customAttendanceReport
+in C:\wamp\www\payrollse\protected\models\Attendance.php (123)
+in C:\wamp\www\payrollse\protected\controllers\AttendanceController.php (21)
+in C:\wamp\www\payrollse\index.php (13)
+2014/12/11 17:03:16 [error] [php] Missing argument 1 for Attendance::thisWeekSearch1(), called in C:\wamp\www\payrollse\protected\controllers\AttendanceController.php on line 21 and defined (C:\wamp\www\payrollse\protected\models\Attendance.php:123)
+Stack trace:
+#0 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\yii\framework\web\CController.php(286): AttendanceController->runAction()
+#2 C:\wamp\yii\framework\web\CController.php(265): AttendanceController->runActionWithFilters()
+#3 C:\wamp\yii\framework\web\CWebApplication.php(282): AttendanceController->run()
+#4 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\payrollse\index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Attendance/customAttendanceReport
+in C:\wamp\www\payrollse\protected\models\Attendance.php (123)
+in C:\wamp\www\payrollse\protected\controllers\AttendanceController.php (21)
+in C:\wamp\www\payrollse\index.php (13)
+2014/12/11 17:03:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 17:03:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2014/12/11 17:03:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2014/12/11 17:04:41 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in C:\wamp\yii\framework\zii\widgets\CBaseListView.php:109
+Stack trace:
+#0 C:\wamp\yii\framework\zii\widgets\grid\CGridView.php(339): CBaseListView->init()
+#1 C:\wamp\www\payrollse\protected\extensions\bootstrap\widgets\TbGridView.php(68): CGridView->init()
+#2 C:\wamp\yii\framework\web\CBaseController.php(147): TbGridView->init()
+#3 C:\wamp\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#4 C:\wamp\www\payrollse\protected\views\attendance\customAttendanceReport.php(105): CBaseController->widget('bootstrap.widge...', Array)
+#5 C:\wamp\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\pay...')
+#6 C:\wamp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pay...', Array, true)
+#7 C:\wamp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pay...', Array, true)
+#8 C:\wamp\yii\framework\web\CController.php(782): CController->renderPartial('customAttendanc...', Array, true)
+#9 C:\wamp\www\payrollse\protected\controllers\AttendanceController.php(26): CController->render('customAttendanc...', Array)
+#10 C:\wamp\yii\framework\web\actions\CInlineAction.php(49): AttendanceController->actionCustomAttendanceReport()
+#11 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\wamp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\wamp\yii\framework\web\CWebApplication.php(282): CController->run('customAttendanc...')
+#15 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Attendance/cust...')
+#16 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 17:04:53 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in C:\wamp\yii\framework\zii\widgets\CBaseListView.php:109
+Stack trace:
+#0 C:\wamp\yii\framework\zii\widgets\grid\CGridView.php(339): CBaseListView->init()
+#1 C:\wamp\www\payrollse\protected\extensions\bootstrap\widgets\TbGridView.php(68): CGridView->init()
+#2 C:\wamp\yii\framework\web\CBaseController.php(147): TbGridView->init()
+#3 C:\wamp\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#4 C:\wamp\www\payrollse\protected\views\attendance\customAttendanceReport.php(105): CBaseController->widget('bootstrap.widge...', Array)
+#5 C:\wamp\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\pay...')
+#6 C:\wamp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pay...', Array, true)
+#7 C:\wamp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pay...', Array, true)
+#8 C:\wamp\yii\framework\web\CController.php(782): CController->renderPartial('customAttendanc...', Array, true)
+#9 C:\wamp\www\payrollse\protected\controllers\AttendanceController.php(26): CController->render('customAttendanc...', Array)
+#10 C:\wamp\yii\framework\web\actions\CInlineAction.php(49): AttendanceController->actionCustomAttendanceReport()
+#11 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\wamp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\wamp\yii\framework\web\CWebApplication.php(282): CController->run('customAttendanc...')
+#15 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Attendance/cust...')
+#16 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 17:05:20 [error] [php] Missing argument 1 for CActiveDataProvider::__construct(), called in C:\wamp\www\payrollse\protected\models\Attendance.php on line 159 and defined (C:\wamp\yii\framework\web\CActiveDataProvider.php:82)
+Stack trace:
+#0 C:\wamp\yii\framework\web\actions\CInlineAction.php(49): AttendanceController->actionCustomAttendanceReport()
+#1 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\yii\framework\web\CController.php(286): AttendanceController->runAction()
+#3 C:\wamp\yii\framework\web\CController.php(265): AttendanceController->runActionWithFilters()
+#4 C:\wamp\yii\framework\web\CWebApplication.php(282): AttendanceController->run()
+#5 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\wamp\www\payrollse\index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Attendance/customAttendanceReport
+in C:\wamp\www\payrollse\protected\models\Attendance.php (159)
+in C:\wamp\www\payrollse\protected\controllers\AttendanceController.php (21)
+in C:\wamp\www\payrollse\index.php (13)
+2014/12/11 17:08:13 [error] [php] Missing argument 1 for CActiveDataProvider::__construct(), called in C:\wamp\www\payrollse\protected\models\Attendance.php on line 159 and defined (C:\wamp\yii\framework\web\CActiveDataProvider.php:82)
+Stack trace:
+#0 C:\wamp\yii\framework\web\actions\CInlineAction.php(49): AttendanceController->actionCustomAttendanceReport()
+#1 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\yii\framework\web\CController.php(286): AttendanceController->runAction()
+#3 C:\wamp\yii\framework\web\CController.php(265): AttendanceController->runActionWithFilters()
+#4 C:\wamp\yii\framework\web\CWebApplication.php(282): AttendanceController->run()
+#5 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\wamp\www\payrollse\index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Attendance/customAttendanceReport
+in C:\wamp\www\payrollse\protected\models\Attendance.php (159)
+in C:\wamp\www\payrollse\protected\controllers\AttendanceController.php (25)
+in C:\wamp\www\payrollse\index.php (13)
+2014/12/11 17:08:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 17:10:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 17:11:26 [error] [php] Undefined variable: sunday (C:\wamp\www\payrollse\protected\models\Attendance.php:128)
+Stack trace:
+#0 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\yii\framework\web\CController.php(286): AttendanceController->runAction()
+#2 C:\wamp\yii\framework\web\CController.php(265): AttendanceController->runActionWithFilters()
+#3 C:\wamp\yii\framework\web\CWebApplication.php(282): AttendanceController->run()
+#4 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\payrollse\index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Attendance/customAttendanceReport
+in C:\wamp\www\payrollse\protected\models\Attendance.php (128)
+in C:\wamp\www\payrollse\protected\controllers\AttendanceController.php (21)
+in C:\wamp\www\payrollse\index.php (13)
+2014/12/11 17:11:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 17:13:27 [error] [php] array_slice() expects parameter 1 to be array, object given (C:\wamp\yii\framework\web\CArrayDataProvider.php:95)
+Stack trace:
+#0 C:\wamp\yii\framework\zii\widgets\CBaseListView.php(111): CArrayDataProvider->getData()
+#1 C:\wamp\yii\framework\zii\widgets\grid\CGridView.php(339): TbGridView->init()
+#2 C:\wamp\www\payrollse\protected\extensions\bootstrap\widgets\TbGridView.php(68): TbGridView->init()
+#3 C:\wamp\yii\framework\web\CBaseController.php(147): TbGridView->init()
+#4 C:\wamp\yii\framework\web\CBaseController.php(172): AttendanceController->createWidget()
+#5 C:\wamp\www\payrollse\protected\views\attendance\customAttendanceReport.php(105): AttendanceController->widget()
+#6 C:\wamp\yii\framework\web\CBaseController.php(126): require()
+#7 C:\wamp\yii\framework\web\CBaseController.php(95): AttendanceController->renderInternal()
+#8 C:\wamp\yii\framework\web\CController.php(869): AttendanceController->renderFile()
+#9 C:\wamp\yii\framework\web\CController.php(782): AttendanceController->renderPartial()
+#10 C:\wamp\www\payrollse\protected\controllers\AttendanceController.php(30): AttendanceController->render()
+#11 C:\wamp\yii\framework\web\actions\CInlineAction.php(49): AttendanceController->actionCustomAttendanceReport()
+#12 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\wamp\yii\framework\web\CController.php(286): AttendanceController->runAction()
+#14 C:\wamp\yii\framework\web\CController.php(265): AttendanceController->runActionWithFilters()
+#15 C:\wamp\yii\framework\web\CWebApplication.php(282): AttendanceController->run()
+#16 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\wamp\www\payrollse\index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Attendance/customAttendanceReport
+in C:\wamp\www\payrollse\protected\extensions\bootstrap\widgets\TbGridView.php (68)
+in C:\wamp\www\payrollse\protected\views\attendance\customAttendanceReport.php (105)
+in C:\wamp\www\payrollse\protected\controllers\AttendanceController.php (30)
+2014/12/11 17:14:23 [error] [php] Undefined offset: 0 (C:\wamp\yii\framework\zii\widgets\grid\CGridColumn.php:137)
+Stack trace:
+#0 C:\wamp\yii\framework\zii\widgets\grid\CGridView.php(482): TbGridView->renderTableBody()
+#1 C:\wamp\yii\framework\zii\widgets\CBaseListView.php(167): TbGridView->renderItems()
+#2 unknown(0): TbGridView->renderSection()
+#3 C:\wamp\yii\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback()
+#4 C:\wamp\yii\framework\zii\widgets\CBaseListView.php(135): TbGridView->renderContent()
+#5 C:\wamp\yii\framework\web\CBaseController.php(173): TbGridView->run()
+#6 C:\wamp\www\payrollse\protected\views\attendance\customAttendanceReport.php(105): AttendanceController->widget()
+#7 C:\wamp\yii\framework\web\CBaseController.php(126): require()
+#8 C:\wamp\yii\framework\web\CBaseController.php(95): AttendanceController->renderInternal()
+#9 C:\wamp\yii\framework\web\CController.php(869): AttendanceController->renderFile()
+#10 C:\wamp\yii\framework\web\CController.php(782): AttendanceController->renderPartial()
+#11 C:\wamp\www\payrollse\protected\controllers\AttendanceController.php(30): AttendanceController->render()
+#12 C:\wamp\yii\framework\web\actions\CInlineAction.php(49): AttendanceController->actionCustomAttendanceReport()
+#13 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\wamp\yii\framework\web\CController.php(286): AttendanceController->runAction()
+#15 C:\wamp\yii\framework\web\CController.php(265): AttendanceController->runActionWithFilters()
+#16 C:\wamp\yii\framework\web\CWebApplication.php(282): AttendanceController->run()
+#17 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\wamp\www\payrollse\index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Attendance/customAttendanceReport
+in C:\wamp\www\payrollse\protected\views\attendance\customAttendanceReport.php (105)
+in C:\wamp\www\payrollse\protected\controllers\AttendanceController.php (30)
+in C:\wamp\www\payrollse\index.php (13)
+2014/12/11 17:15:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 17:17:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---
+2014/12/11 17:17:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/attendance/customAttendanceReport?staff=1&from_date=&to_date=&yt0=
+---
+2014/12/11 17:17:36 [error] [php] Undefined variable: result (C:\wamp\www\payrollse\protected\models\Attendance.php:153)
+Stack trace:
+#0 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\yii\framework\web\CController.php(286): AttendanceController->runAction()
+#2 C:\wamp\yii\framework\web\CController.php(265): AttendanceController->runActionWithFilters()
+#3 C:\wamp\yii\framework\web\CWebApplication.php(282): AttendanceController->run()
+#4 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\payrollse\index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/attendance/customAttendanceReport?staff=&from_date=2014-12-01&to_date=2014-12-31&yt0=
+in C:\wamp\www\payrollse\protected\models\Attendance.php (153)
+in C:\wamp\www\payrollse\protected\controllers\AttendanceController.php (26)
+in C:\wamp\www\payrollse\index.php (13)
+2014/12/11 17:18:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/attendance/customAttendanceReport?staff=&from_date=2014-12-01&to_date=2014-12-31&yt0=
+---
+2014/12/11 17:18:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/attendance/customAttendanceReport?staff=10&from_date=2014-12-01&to_date=2014-12-04&yt0=
+---
+2014/12/11 17:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/attendance/customAttendanceReport?staff=10&from_date=2014-12-01&to_date=2014-12-04&yt0=
+---
+2014/12/11 17:19:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/attendance/customAttendanceReport
+---
+2014/12/11 17:19:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/attendance/customAttendanceReport
+---
+2014/12/11 17:19:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/attendance/customAttendanceReport
+---
+2014/12/11 17:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/attendance/customAttendanceReport
+---
+2014/12/11 17:21:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/attendance/customAttendanceReport
+---
+2014/12/11 17:21:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/attendance/customAttendanceReport
+---
+2014/12/11 17:21:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/attendance/customAttendanceReport?staff=1&from_date=2014-12-01&to_date=2014-12-03&yt0=
+---
+2014/12/11 17:22:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/attendance/customAttendanceReport?s
+---
+2014/12/11 17:22:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/attendance/customAttendanceReport
+---
+2014/12/11 17:22:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/attendance/customAttendanceReport
+---
+2014/12/11 17:22:54 [error] [php] Undefined variable: result (C:\wamp\www\payrollse\protected\models\Attendance.php:153)
+Stack trace:
+#0 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\yii\framework\web\CController.php(286): AttendanceController->runAction()
+#2 C:\wamp\yii\framework\web\CController.php(265): AttendanceController->runActionWithFilters()
+#3 C:\wamp\yii\framework\web\CWebApplication.php(282): AttendanceController->run()
+#4 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\payrollse\index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/attendance/customAttendanceReport?ajax=attendance-grid&from_date=2014-12-02&staff=10&to_date=2014-12-02
+in C:\wamp\www\payrollse\protected\models\Attendance.php (153)
+in C:\wamp\www\payrollse\protected\controllers\AttendanceController.php (26)
+in C:\wamp\www\payrollse\index.php (13)
+2014/12/11 17:24:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/attendance/customAttendanceReport
+---
+2014/12/11 17:24:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/attendance/customAttendanceReport
+---
+2014/12/11 17:33:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/attendance/customAttendanceReport
+---
+2014/12/11 17:36:37 [error] [exception.CException] exception 'CException' with message 'Property "TbGridView.pagination" is not defined.' in C:\wamp\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('pagination', 'false')
+#1 C:\wamp\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(StaffController), 'bootstrap.widge...', Array)
+#2 C:\wamp\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\wamp\www\payrollse\protected\views\attendance\weeklyAttendancepdf.php(125): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\wamp\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\pay...')
+#5 C:\wamp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pay...', Array, true)
+#6 C:\wamp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pay...', Array, true)
+#7 C:\wamp\www\payrollse\protected\controllers\StaffController.php(435): CController->renderPartial('../attendance/w...', Array, true, true)
+#8 C:\wamp\yii\framework\web\actions\CInlineAction.php(49): StaffController->actionCustomAttendancePdf()
+#9 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\wamp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\wamp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\wamp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\wamp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\wamp\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\wamp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\wamp\yii\framework\web\CWebApplication.php(282): CController->run('customAttendanc...')
+#18 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Staff/customAtt...')
+#19 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/payrollse/Staff/customAttendancePdf
+HTTP_REFERER=http://localhost/payrollse/attendance/customAttendanceReport
+---
+2014/12/11 17:44:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Site/Index
+---
+2014/12/11 17:44:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/departAttendanceReport
+---
+2014/12/11 17:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/attendanceDetail/2
+---
+2014/12/11 17:45:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/departAttendanceReport
+---
+2014/12/11 17:45:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/attendanceDetail/7
+---
+2014/12/11 17:45:12 [error] [php] Undefined variable: from (C:\wamp\www\payrollse\protected\controllers\StaffController.php:422)
+Stack trace:
+#0 C:\wamp\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\yii\framework\web\filters\CFilterChain.php(133): StaffController->runAction()
+#3 C:\wamp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\wamp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 C:\wamp\yii\framework\web\filters\CInlineFilter.php(58): StaffController->filterAccessControl()
+#6 C:\wamp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 C:\wamp\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\wamp\yii\framework\web\CController.php(265): StaffController->runActionWithFilters()
+#9 C:\wamp\yii\framework\web\CWebApplication.php(282): StaffController->run()
+#10 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\wamp\www\payrollse\index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Staff/printWeekAttendance/7
+in C:\wamp\www\payrollse\protected\controllers\StaffController.php (422)
+in C:\wamp\www\payrollse\index.php (13)
+2014/12/11 17:45:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/departAttendanceReport
+---
+2014/12/11 17:48:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/departAttendanceReport
+---
+2014/12/11 17:48:44 [error] [php] Missing argument 1 for Attendance::thisWeekSearch1(), called in C:\wamp\www\payrollse\protected\controllers\AttendanceController.php on line 21 and defined (C:\wamp\www\payrollse\protected\models\Attendance.php:123)
+Stack trace:
+#0 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\yii\framework\web\CController.php(286): AttendanceController->runAction()
+#2 C:\wamp\yii\framework\web\CController.php(265): AttendanceController->runActionWithFilters()
+#3 C:\wamp\yii\framework\web\CWebApplication.php(282): AttendanceController->run()
+#4 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\payrollse\index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Attendance/customAttendanceReport
+in C:\wamp\www\payrollse\protected\models\Attendance.php (123)
+in C:\wamp\www\payrollse\protected\controllers\AttendanceController.php (21)
+in C:\wamp\www\payrollse\index.php (13)
+2014/12/11 17:51:12 [error] [exception.CException] exception 'CException' with message 'Property "TbGridView.pagination" is not defined.' in C:\wamp\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('pagination', false)
+#1 C:\wamp\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(StaffController), 'bootstrap.widge...', Array)
+#2 C:\wamp\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\wamp\www\payrollse\protected\views\attendance\weeklyAttendancepdf.php(81): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\wamp\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\pay...')
+#5 C:\wamp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pay...', Array, true)
+#6 C:\wamp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pay...', Array, true)
+#7 C:\wamp\www\payrollse\protected\controllers\StaffController.php(452): CController->renderPartial('../attendance/w...', Array, true, true)
+#8 [internal function]: StaffController->actionDepartWeeklyAttendance(0)
+#9 C:\wamp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(StaffController), Array)
+#10 C:\wamp\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StaffController), Object(ReflectionMethod), Array)
+#11 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\wamp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\wamp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\wamp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\wamp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\wamp\yii\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\wamp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\wamp\yii\framework\web\CWebApplication.php(282): CController->run('departWeeklyAtt...')
+#20 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Staff/departWee...')
+#21 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/payrollse/Staff/departWeeklyAttendance
+HTTP_REFERER=http://localhost/payrollse/Attendance/departAttendanceReport
+---
+2014/12/11 17:51:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/attendanceDetail/2
+---
+2014/12/11 17:53:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/departAttendanceReport
+---
+2014/12/11 18:03:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/attendanceDetail/2
+---
+2014/12/11 18:03:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/departAttendanceReport
+---
+2014/12/11 18:03:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\payrollse\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---

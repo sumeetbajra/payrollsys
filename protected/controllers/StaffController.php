@@ -36,7 +36,7 @@ class StaffController extends Controller
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','create', 'delete', 'staffAllowance', 'viewAllowance', 'addAllowance', 'updateAllowance', 'SalarySheet', 'updateStaffAllowance', 'DeleteStaffAllowance', 'AttendanceDetail', 'printWeekAttendance', 'departWeeklyAttendance'),
+				'actions'=>array('admin','create', 'delete', 'staffAllowance', 'viewAllowance', 'addAllowance', 'updateAllowance', 'SalarySheet', 'updateStaffAllowance', 'DeleteStaffAllowance', 'AttendanceDetail', 'printWeekAttendance', 'departWeeklyAttendance', 'customAttendancePdf'),
 				'users'=>array('admin', 'sanjay'),
 			),
 			array('deny',  // deny all users
@@ -424,6 +424,17 @@ class StaffController extends Controller
 		$mPDF1 = Yii::app()->ePdf->mpdf('', 'A4');
 		$mPDF1->WriteHTML($this->renderPartial('../attendance/weeklyAttendancepdf', array('id'=>$id, 'model'=>$model, 'attendances'=>$attendance), true, true));
 		$mPDF1->Output();
+	}
+
+	public function actionCustomAttendancePdf(){
+		$model = new Attendance;
+		$id = Yii::app()->session['id'];
+		$attendance = $model->thisWeekSearch1(Yii::app()->session['id'], Yii::app()->session['from'], Yii::app()->session['to']);
+		$mPDF1 = Yii::app()->ePdf->mpdf();		
+		$mPDF1 = Yii::app()->ePdf->mpdf('', 'A4');
+		$mPDF1->WriteHTML($this->renderPartial('../attendance/weeklyAttendancepdf', array('id'=>$id, 'model'=>$model, 'attendances'=>$attendance), true, true));
+		$mPDF1->Output();
+
 	}
 
 	/**
