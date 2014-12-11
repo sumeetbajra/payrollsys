@@ -4,7 +4,7 @@ $this->menu=array(
     array('label'=>'<i class="icon-building"></i>Manage departments', 'url'=>Yii::app()->controller->createUrl('/Department/admin'), 'linkOptions'=>array()),
     array('label'=>'<i class="icon-group"></i>Manage designation', 'url'=>Yii::app()->controller->createUrl('/designation/admin'), 'linkOptions'=>array()),
     array('label'=>'<i class="icon-tags"></i>Manage allowances', 'url'=>Yii::app()->controller->createUrl('/allowances/admin'), 'linkOptions'=>array()),
-    array('label'=>'<i class="icon-download-alt"></i>Download as pdf', 'url'=>Yii::app()->controller->createUrl('/allowances/admin'), 'linkOptions'=>array()),
+    array('label'=>'<i class="icon-download-alt"></i>Download as pdf', 'url'=>Yii::app()->controller->createUrl('/Staff/departWeeklyAttendance/'), 'linkOptions'=>array('target'=>'_new')),
     ); 
 
 $staff = Staff::model()->findByPk(Yii::app()->session['uid']);

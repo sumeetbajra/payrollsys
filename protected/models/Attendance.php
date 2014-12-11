@@ -104,6 +104,7 @@ class Attendance extends CActiveRecord
 		// @todo Please modify the following code to remove attributes that should not be searched.
 
 		$criteria=new CDbCriteria;
+		$this->staff_id = 10;
 		$sunday = strtotime('last sunday', strtotime('tomorrow'));
 		$friday = strtotime('next saturday', strtotime('yesterday'));
 		$criteria->compare('id',$this->id);
@@ -113,9 +114,54 @@ class Attendance extends CActiveRecord
 		$criteria->compare('login_status',$this->login_status,true);
 		$criteria->compare('logout_status',$this->logout_status,true);
 
-		return  new CActiveDataProvider($this, array(
+		$attendances = new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
+		return $attendances;
+	}
+
+	public function thisWeekSearch1($staff_id){
+		$sunday = strtotime('last sunday', strtotime('tomorrow'));
+		$friday = strtotime('next saturday', strtotime('yesterday'));
+		for ($i=0; $i < 6 ; $i++) { 
+			$date = date('Y-m-d', $sunday);
+			$sql = "SELECT * FROM attendance WHERE staff_id = $staff_id AND FROM_UNIXTIME(login, '%Y-%m-%d') = '$date'";
+			$sql = Yii::app()->db->createCommand($sql)->queryRow();
+			if(empty($sql)){
+				$result[] = array(
+					'id' 		=> '0',
+					'date'		=> $date, 
+					'login_time'	=> '-', 
+					'login_status'	=> 'Absent', 
+					'logout_time'	=> '-', 
+					'logout_status'=> 'Absent'
+					);
+			}else{
+				$result[] = array(
+					'id' 		=> $sql['id'],
+					'date'		=> $date, 
+					'login_time'	=> date('H:i a', $sql['login']), 
+					'login_status'	=> $sql['login_status'], 
+					'logout_time'	=> (empty($sql['logout']) ? '-' : date('H:i a', $sql['logout'])), 
+					'logout_status'=> $sql['logout_status']);
+			}
+			$sunday += 86400;
+		}
+		$dataProvider=new CArrayDataProvider($result, array(
+		'keyField'=>false,
+		    'pagination'=>array(
+		        'pageSize'=>10,
+		    ),
+		));
+		return $dataProvider;
+	}
+
+	public function departWeeklyAttendance($id){
+		$staffs = Staff::model()->findAllByAttributes(array('department_id'=>$id));
+		foreach ($staffs as $staff) {
+			$report[$staff->staff_id] = $this->thisWeekSearch1($staff->staff_id);
+		}
+		return $report;
 	}
 
 	public function departSearch($id){		

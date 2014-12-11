@@ -19,7 +19,7 @@ $model = new Attendance;
 $model->staff_id = $id;
 $this->widget('bootstrap.widgets.TbGridView',array(
     'id'=>'attendance-grid',
-    'dataProvider'=>$model->thisWeekSearch(),
+    'dataProvider'=>$model->thisWeekSearch1($id),
     'type'=>'striped bordered',
     'template'=>'{summary}{pager}{items}{pager}',
     'columns'=>array(
@@ -29,30 +29,44 @@ $this->widget('bootstrap.widgets.TbGridView',array(
             ),
         array(
             'header'=>'Date',
-            'value'=>'date("d M, Y", $data->login)'
+            'value'=>'$data["date"]',
             ), 
         array(
             'header'=>'Login Time',
-            'value'=>'date("h:i a", $data->login)'
+            'value'=>'$data["login_time"]'
             ),
           array(
             'header'=>'Login Status',
-            'value'=>'$data->login_status',
+            'value'=>'$data["login_status"]',
             ),
      
         array(
             'header'=>'Logout Time',
-            'value'=>'(empty($data->logout) ? "N/A" : date("h:i a", $data->logout))'
+            'value'=>'(empty($data["logout_time"]) ? "-" : $data["logout_time"])'
             ),
          array(
             'header'=>'Logout Status',
-            'value'=>'(empty($data->logout) ? "N/A" : $data->logout_status )'
+            'value'=>'(empty($data["logout_time"]) ? "-" : $data["logout_status"])'
             ),
+           array(
+            'header'=>'<a>Actions</a>',
+            'class'=>'bootstrap.widgets.TbButtonColumn',
+            'template' => '{edit}',
+            'buttons' => array(
+                      'edit' => array(
+                    'label' => 'Edit',
+                    'url' => 'Yii::app()->controller->createUrl("Staff/attendanceDetail/".$data["id"])',
+                    'options' => array(
+                        'class' => 'btn btn-small edit',
+                    )),
+
+            ),
+            'htmlOptions'=>array('nowrap'=>'nowrap'),
+        ),
       
       ),
     ));
 
 ?>
 
-<br>
-
+<a class="btn btn-primary" href="<?php echo Yii::app()->createUrl('/Staff/printWeekAttendance/' . $id) ?>" target="_new"><i class="icon-download-alt"></i> Download as pdf</a>

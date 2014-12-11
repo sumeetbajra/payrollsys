@@ -36,7 +36,7 @@ class StaffController extends Controller
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','create', 'delete', 'staffAllowance', 'viewAllowance', 'addAllowance', 'updateAllowance', 'SalarySheet', 'updateStaffAllowance', 'DeleteStaffAllowance', 'AttendanceDetail'),
+				'actions'=>array('admin','create', 'delete', 'staffAllowance', 'viewAllowance', 'addAllowance', 'updateAllowance', 'SalarySheet', 'updateStaffAllowance', 'DeleteStaffAllowance', 'AttendanceDetail', 'printWeekAttendance', 'departWeeklyAttendance'),
 				'users'=>array('admin', 'sanjay'),
 			),
 			array('deny',  // deny all users
@@ -414,6 +414,35 @@ class StaffController extends Controller
 	}
 
 	/**
+	 * generates pdf of the weekly attendance report for a staff
+	 * @param  integer $id id of the staff
+	 */
+	public function actionPrintWeekAttendance($id = 0){
+		$model = new Attendance;
+		$attendance = $model->thisWeekSearch1($id);
+		$mPDF1 = Yii::app()->ePdf->mpdf();		
+		$mPDF1 = Yii::app()->ePdf->mpdf('', 'A4');
+		$mPDF1->WriteHTML($this->renderPartial('../attendance/weeklyAttendancepdf', array('id'=>$id, 'model'=>$model, 'attendances'=>$attendance), true, true));
+		$mPDF1->Output();
+	}
+
+	/**
+	 * generates pdf of the weekly attendance report of a department
+	 * @param  integer $id department id
+	 */
+	public function actionDepartWeeklyAttendance($id = 0){
+		$model = new Attendance;
+		if($id == 0){
+			$id = Yii::app()->session['depart'];
+		}
+		$attendance = $model->departWeeklyAttendance($id);
+		$mPDF1 = Yii::app()->ePdf->mpdf();		
+		$mPDF1 = Yii::app()->ePdf->mpdf('', 'A4');
+		$mPDF1->WriteHTML($this->renderPartial('../attendance/weeklyAttendancepdf', array('id'=>$id, 'model'=>$model, 'attendances'=>$attendance), true, true));
+		$mPDF1->Output();
+	}
+
+	/**
 	 * Display all the allowances allocated to the staff
 	 * @param  [int] $id [id of the staff]
 	 */
@@ -486,5 +515,4 @@ class StaffController extends Controller
 			$this->redirect(Yii::app()->createUrl('/Staff/viewAllowance/'.$staffAllowance->id));
 		}
 	}
-
 }

@@ -9,7 +9,8 @@ class AttendanceController extends Controller
 		$departs = CHtml::listData(Department::model()->findAll(), 'department_id', 'department_name');
 		$departId = 0;
 		if(isset($_GET['depart'])){
-			$departId = $_GET['depart'];
+			$departId = (int) $_GET['depart'];
+			Yii::app()->session['depart'] = (int) $_GET['depart'];
 		}
 		$this->render('departAttendanceReport', array('model'=>$model, 'departs'=>$departs, 'departId'=>$departId));
 	}
