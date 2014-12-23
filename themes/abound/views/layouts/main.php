@@ -53,7 +53,7 @@
 
 <section id="navigation-main">   
 <!-- Require the navigation -->
-<?php require_once('tpl_navigation.php')?>
+<?php require_once('tpl_navigation.php') ?>
 </section><!-- /#navigation-main -->
     
 <section class="main-body">
@@ -64,7 +64,7 @@
 </section>
 
 <!-- Require the footer -->
-<?php require_once('tpl_footer.php')?>
+<?php require_once('tpl_footer.php') ?>
 
   </body>
 </html>

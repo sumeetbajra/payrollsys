@@ -63,9 +63,9 @@ font-size: 15px;
 <?php
 if(Yii::app()->user->getState('role') == 'exco'){
 $this->menu=array(
-    array('label'=>'<i class="icon-building"></i>Manage departments', 'url'=>Yii::app()->controller->createUrl('/Department/admin'), 'linkOptions'=>array()),
-    array('label'=>'<i class="icon-group"></i>Manage designation', 'url'=>Yii::app()->controller->createUrl('/designation/admin'), 'linkOptions'=>array()),
-    array('label'=>'<i class="icon-tags"></i>Manage allowances', 'url'=>Yii::app()->controller->createUrl('/allowances/admin'), 'linkOptions'=>array()),
+    array('label'=>'<i class="icon-building"></i> Manage departments', 'url'=>Yii::app()->controller->createUrl('/Department/admin'), 'linkOptions'=>array()),
+    array('label'=>'<i class="icon-group"></i> Manage designation', 'url'=>Yii::app()->controller->createUrl('/designation/admin'), 'linkOptions'=>array()),
+    array('label'=>'<i class="icon-tags"></i> Manage allowances', 'url'=>Yii::app()->controller->createUrl('/allowances/admin'), 'linkOptions'=>array()),
     ); 
 
 }else{
@@ -159,9 +159,9 @@ echo Yii::app()->user->setFlash('info', $info); ?>
 
 <div style="clear:both"></div>
 
-<h4><i class="icon-bar-chart"></i> Your attendance statistics this month</h4><hr>
+<!-- <h4><i class="icon-bar-chart"></i> Your attendance statistics this month</h4><hr> -->
 
-<div class="row-fluid">
+<!-- <div class="row-fluid">
   <div class="span12">
     <div class="row-fluid">
       <div class="span6">
@@ -184,7 +184,93 @@ echo Yii::app()->user->setFlash('info', $info); ?>
       </div>
     </div>
   </div>
+</div> -->
+
+<div class="row-fluid">
+    <div class="span6">
+    <h4><i class="icon-bar-chart"></i> Attendance Statistics</h4><hr>
+    <?php
+$this->Widget('ext.highcharts.highcharts.HighchartsWidget', array(
+    'options'=>array(
+        'title' => array('text' => 'Attendance Statistics for December'),
+        'xAxis' => array(
+            'categories' => array('
+                On time', 'Late Entry', 'Absent', 'Early Exit
+            ')
+        ),
+        'yAxis' => array(
+            'title' => array('text' => 'Number of days'),
+            'min'=>0,
+        ),
+        'series' => array(
+            array('name' => 'No of days', 'data' => array(
+        2, 3, 6, 1
+            )),
+
+        ),
+         'chart' => array(
+     'type'=>'column',
+     'height'=>'350',
+     
+      ),
+    ),
+   
+));
+?>
+  </div>
+  <div class="span6">
+    <h4><i class="icon-eye-open"></i> Activity Log</h4><hr>
+    <table class="table table-condensed table-bordered">
+            <thead>
+                <tr>
+                <th>User</th>
+                <th>Description</th>
+                <th>Date</th>
+            </tr>
+            </thead>
+            <tr>
+                <td>Sumit</td>
+                <td>Created Staff 10</td>
+                <td>2014/12/11</td>
+            </tr>
+               <tr>
+                <td>Sumit</td>
+                <td>Created Staff 11</td>
+                <td>2014/12/13</td>
+            </tr>
+               <tr>
+                <td>Sanjay</td>
+                <td>Created Allowance 'House'</td>
+                <td>2014/12/11</td>
+            </tr>
+             <tr>
+                <td>Jessica</td>
+                <td>Created edited TDS</td>
+                <td>2014/12/19</td>
+            </tr>
+             <tr>
+                <td>Anil</td>
+                <td>Created Staff 14</td>
+                <td>2014/12/11</td>
+            </tr>
+             <tr>
+                <td>Sumit</td>
+                <td>Edited Staff 10</td>
+                <td>2014/12/21</td>
+            </tr>
+             <tr>
+                <td>Sumit</td>
+                <td>Deleted Staff 10</td>
+                <td>2014/12/181</td>
+            </tr>
+    </table>
+
+
+  </div>
+  
 </div>
+
+
 <br>
 
 

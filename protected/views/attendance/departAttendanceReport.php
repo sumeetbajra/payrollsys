@@ -19,7 +19,7 @@ $staff = Staff::model()->findByPk(Yii::app()->session['uid']);
 <h5>Please choose department:</h5>
 
 <?php echo CHtml::dropDownList('depart', '', $departs, array('prompt'=>'Department', 'class'=>'span5')); ?>
-<br>
+
 <?php 
 
 $model = new Attendance;
@@ -29,9 +29,9 @@ exit;*/
 
 $this->widget('bootstrap.widgets.TbButton', array(
     'label'=>'Proceed',
-    'type'=>'primary', // null, 'primary', 'info', 'success', 'warning', 'danger' or 'inverse'
+    'type'=>'null', // null, 'primary', 'info', 'success', 'warning', 'danger' or 'inverse'
     'size'=>'null', // null, 'large', 'small' or 'mini'
-   'htmlOptions'=>array('id'=>'proceed'),
+   'htmlOptions'=>array('id'=>'proceed', 'style'=>'position:relative; top:-6px'),
 )); ?>
 
 <?php 

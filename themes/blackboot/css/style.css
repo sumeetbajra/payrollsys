@@ -1,7 +1,30 @@
 /*!
  * Black Bootstrap modified by Sumit Bajracharya
  */
- 
+
+@font-face {
+    font-family: sumit;
+    src: url(cuprum.ttf);
+}
+
+ .navbar a.brand{
+  color: white;
+text-shadow:none;
+ }
+
+ .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle{
+  background: black;
+  color: white;
+ }
+
+ .dropdown-menu li > a{
+  padding: 9px 10px;
+ }
+
+ .dropdown-menu{
+  border-radius: 2px;
+ }
+
 .body{
   position: fixed;
   top: -20px;
@@ -11,21 +34,58 @@
   width: auto;
   height: auto;
   /**background-image: url(../../../images/a.jpg);**/
-  background:url(../img/tiny_grid.png) repeat 0 0;
+  background:#F7F7F7;
   /**background-size: cover;**/
   /**-webkit-filter: blur(5px);**/
   z-index: -1;
 }
 
+/*ul.breadcrumb  li a {
+  display: block;
+  float: left;
+  height: 50px;
+  background: #3498db;
+  text-align: center;
+  padding: 30px 40px 0 40px;
+  position: relative;
+  margin: 0 10px 0 0; 
+  
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.breadcrumb li a:after {
+  content: "";  
+  border-top: 40px solid red;
+  border-bottom: 40px solid red;
+  border-left: 40px solid blue;
+  position: absolute; right: -40px; top: 0;
+  border-top: 40px solid transparent;
+border-bottom: 40px solid transparent;
+border-left: 40px solid #3498db;
+}
+
+.breadcrumb  li a:before {
+  content: "";  
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-left: 40px solid #f5f5f5;
+  position: absolute; left: 0; top: 0;
+
+}*/
+
 .page-title{
-background: #f5f5f5;
+background: #40484C;
 width: 100.78%;
 position: relative;
-font-size: 16px;
+font-size: 14px;
 left: -20px;
 border-bottom: solid thin #DDD;
 margin-bottom: 20px;
-padding: 20px 13px 15px 20px;
+padding: 10px 13px 9px 20px;
+color: white;
+font-family: sumit;
 }
 
 .bootstrap-widget-header{
@@ -83,7 +143,11 @@ min-height:500px;
 }
 
 .sidebar li:hover{
-  background: #f8f8f8;
+  background-color: #239169;
+}
+
+.sidebar li:hover a{
+  color: white;
 }
 
 .sidebar li a:hover{
@@ -118,6 +182,15 @@ padding: 10px 15px;
 margin-bottom: -1px;
 background-color: #ffffff;
 border: 1px solid #dddddd;
+margin-bottom: 2px;
+  transition: background-color .2s;
+  cursor: pointer;
+  font-family: sumit;
+  font-size: 14px;
+}
+
+ul.sidebar li a{
+  color: #313131
 }
 
 /* Forms */
@@ -603,7 +676,7 @@ margin-bottom: 20px;
 }
 
 .sidebar li i{
-  margin-right: 10px;
+  margin-right: 6px;
 }
 
 .sidebar li.active{
@@ -632,20 +705,16 @@ margin-bottom: 20px;
   border: solid thin #DDD;
 }
 
-.table thead tr:first-child{
-  background: #428BCA;
-  color: white;
-}
+
 
 table{
   border-radius: 0;
 }
 
 .panel-head{
-background: #f0f0f0;
+background: #2F96B4;
 border-bottom: solid thin #DDD;
 padding: 8px 5px;
-background: #428BCA;
 color: white;
 font-size: 14px;
 }
@@ -757,15 +826,13 @@ ul#yw3{
   float: none;
 }
 
-#yw3 li a{
-  color: #0088cc;
+
+.dropdown-menu li > a:hover{
+  background: #239169;
 }
 
-.dropdown-toggle + #yw3 li a{
-  color: black;
-}
-.dropdown-toggle + #yw3 li a:hover{
-  color: white;
+.dropdown-menu li a{
+  transition: background .3s;
 }
 
 .modal-body{
@@ -781,7 +848,7 @@ display: none;
 }
 
 .modal-header{
-  background: #0081A8;
+  background: #40484C;
   color: white
 }
 
@@ -794,18 +861,59 @@ a.close{
   border-radius: 0;
 }
 
-#attendance-grid table thead tr th{
-  height: 28px;
-  vertical-align: middle;
-  background: #065DA8;
-  color: rgb(240, 245, 255);
+.btn.btn-primary{
+  background: rgb(64, 72, 76);
+  font-size: 12px;
+color: white;
+  text-shadow:none;
 }
 
+.btn.dropdown-toggle, .btn.dropdown-toggle:hover{
+  background: #2f96b4;
+  font-size: 12px;
+color: white;
+  text-shadow:none;
+}
+
+.btn.btn-primary:hover{
+ background: rgb(64, 72, 76);
+  font-size: 12px; 
+color: white;
+  text-shadow:none;
+}
+
+.btn.active{
+  background:rgba(220, 220, 220, 0.65);
+  box-shadow: none;
+}
+
+.btn.btn-success:hover{
+  color: white;
+ background: #239169;
+  font-size: 12px; 
+}
+
+.btn.btn-success{
+  color: white;
+ background: #239169;
+  font-size: 12px; 
+}
+
+
+.btn{
+  font-size: 12px;
+  background: #F7F7F7;
+  text-shadow:none;
+}
+
+.btn:hover{
+  background: #F7F7F7;
+    text-shadow:none;
+}
 .table thead tr th{
   height: 28px;
   vertical-align: middle;
-  background: #065DA8;
-  color: rgb(240, 245, 255);
+  background: #fafafa;
 }
 
 .table tr td{
@@ -814,7 +922,7 @@ a.close{
   }
 
 .table thead tr th a{
-  color: white;
+  color: #40484C;
 }
 
 .navbar .brand {

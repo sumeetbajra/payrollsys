@@ -41,28 +41,38 @@
 <!-- Le fav and touch icons -->
 <style>
 .navbar .navbar-inner {
-background: #f5f5f5;
+background: #333;
 }
 
-/*.nav-collapse .nav li a{
-	color: white;
-}*/
+.alert-info {
+color: #FFFFFF;
+background-color: #239169;
+text-shadow:none;
+border-radius: 0;
+box-shadow: none;
+}
 
+.navbar .nav > li > a, .navbar .nav > li > a:visited{
+	color: white;
+	text-shadow: none;
+	font-size: 12px;
+}
+
+.navbar .nav > li > a:hover{
+	color: white;
+	text-shadow: none;
+	background: black;
+	font-size: 12px;
+}
 
 .footer{
-	background:#065DA8;
-	box-shadow: inset 0 1px 0 #065DA8;
+	background:#333;
+	box-shadow: inset 0 1px 0 #333;
 	color: white;
-	border-top: solid thin #065DA8;
+	border-top: solid thin #333;
 }
 
-a.dropdown-toggle + #yw2 li a{
-	color: black;
-}
 
-a.dropdown-toggle + #yw2 li a:hover{
-	color: white;
-}
 </style>
 </head>
 

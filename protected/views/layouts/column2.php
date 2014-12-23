@@ -10,7 +10,7 @@
 	<?php
 		$this->beginWidget('zii.widgets.CPortlet', array(
 			'title'=>'Operations',
-			'encodeLabel'=>false,
+			//'encodeLabel'=>false,
 		));
 		$this->widget('zii.widgets.CMenu', array(
 			'items'=>$this->menu,
