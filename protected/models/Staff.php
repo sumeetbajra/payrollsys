@@ -160,7 +160,7 @@ class Staff extends CActiveRecord
 	public function getSelfPf($id, $date){
 		$selfPf = StaffSelfPf::model()->findByAttributes(array('staff_id'=>$id), array('order'=>'id DESC'), 'month(effective_date) <= "'.date('m', $date) . '" AND year(effective_date) <= "' . date('y', $date) . '"');
 		if(!empty($selfPf)){
-			return $selfPf->amount;
+			return number_format((float)$selfPf->amount, 2, '.', '');
 		}else{
 			return "0";
 		}

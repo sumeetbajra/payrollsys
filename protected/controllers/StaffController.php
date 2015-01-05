@@ -32,11 +32,11 @@ class StaffController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('update', 'changePassword', 'attendanceReport', 'attendanceStatistics', 'edit'),
+				'actions'=>array('update', 'changePassword', 'attendanceReport', 'attendanceStatistics', 'edit', 'salarySheet'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','create', 'delete', 'staffAllowance', 'viewAllowance', 'addAllowance', 'updateAllowance', 'SalarySheet', 'updateStaffAllowance', 'DeleteStaffAllowance', 'AttendanceDetail', 'printWeekAttendance', 'departWeeklyAttendance', 'customAttendancePdf'),
+				'actions'=>array('admin','create', 'delete', 'staffAllowance', 'viewAllowance', 'addAllowance', 'updateAllowance', 'PayrollSheet', 'updateStaffAllowance', 'DeleteStaffAllowance', 'AttendanceDetail', 'printWeekAttendance', 'departWeeklyAttendance', 'customAttendancePdf'),
 				'users'=>array('admin', 'sanjay'),
 			),
 			array('deny',  // deny all users
@@ -409,6 +409,44 @@ class StaffController extends Controller
 		if($id == 0){
 			$id = Yii::app()->session['uid'];
 		}
+		if(isset($_POST['Attendance'])){
+			$post = $_POST['Attendance'];
+			if(!empty($_POST['attendance-id'])){
+				$attendance = Attendance::model()->findByPk((int) $_POST['attendance-id']);
+			}else{
+				$attendance = new Attendance;
+				$attendance->staff_id = $id;
+			}
+			$attendance->attributes = $post;
+			//echo "<pre>";
+			//print_r($attendance);
+			
+			if(!empty($post['login'])){
+				$attendance->login = strtotime($_POST['date'] . ' ' .$post['login']);
+				if(strtotime($post['login']) <= strtotime(date('Y-m-d', time()) . ' ' . StaffOfficeTime::model()->findByAttributes(array('staff_id'=>$id), array('order'=>'effective_date DESC'))->start_time)){
+					$attendance->login_status = 'On time';
+				}else{
+					$attendance->login_status = 'Late';
+				}
+			}
+			if(!empty($post['logout'])){
+				$attendance->logout = strtotime($_POST['date'] . ' ' . $post['logout']);
+				$userLogoutTime = StaffOfficeTime::model()->findByAttributes(array('staff_id'=>$id), array('order'=>'effective_date DESC'))->end_time;
+				if($attendance->logout <=  strtotime(date('Y-m-d', time()) . ' ' . $userLogoutTime)){
+					$attendance->logout_status = 'Early';
+				}else{
+					$attendance->logout_status = 'On time';
+				}
+			}
+			if($attendance->save()){
+				Yii::app()->user->setFlash('success', 'The attendance has been updated succesfully');
+			}else{
+				echo "<pre>";
+				print_r($attendance->getErrors());
+				exit;
+				Yii::app()->user->setFlash('error', 'Something went wrong. Please try again later.');
+			}
+		}
 		$attendance = Attendance::model()->findAllByAttributes(array('staff_id'=>$id));
 		$this->render('../attendance/attendanceDetail', array('attendance'=>$attendance, 'id'=>$id));
 	}
@@ -490,7 +528,15 @@ class StaffController extends Controller
 			$depart = $_POST['depart'];
 		}
 		$this->render('salarySheet', array('staffs'=>$staffs, 'model'=>$model, 'depart'=>$depart));
+	}
 
+	public function actionPayrollSheet($id){
+		$staff = Staff::model()->findByPk($id);
+		$gtotal = 0;
+		$allowances = Allowances::model()->findAll(); 
+		$salary = Designation::model()->findByPk($staff->designation_id)->salary; 
+		$pfc = $staff->getPfc(time()) * $salary/100;
+		$this->render('payrollSheet', array('staff'=>$staff, 'gtotal'=>$gtotal, 'allowances'=>$allowances, 'salary'=>$salary, 'pfc'=>$pfc));
 	}
 
 	public function actionUpdateStaffAllowance(){

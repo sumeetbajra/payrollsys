@@ -35,7 +35,7 @@ class Attendance extends CActiveRecord
 			array('login_status, logout_status', 'length', 'max'=>50),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, staff_id, login, logout, login_status, logout_status', 'safe', 'on'=>'search'),
+			array('id, staff_id, login, logout, login_status, logout_status, reason', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -63,6 +63,7 @@ class Attendance extends CActiveRecord
 			'logout' => 'Logout',
 			'login_status' => 'Login Status',
 			'logout_status' => 'Logout Status',
+			'reason' => 'Reason',
 		);
 	}
 

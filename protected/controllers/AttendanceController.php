@@ -4,6 +4,39 @@ class AttendanceController extends Controller
 {
 	public $layout = '//layouts/column2';
 
+	/**
+	 * @return array action filters
+	 */
+	public function filters()
+	{
+		return array(
+			'accessControl', // perform access control for CRUD operations
+			'postOnly + delete', // we only allow deletion via POST request
+		);
+	}
+
+	/**
+	 * Specifies the access control rules.
+	 * This method is used by the 'accessControl' filter.
+	 * @return array access control rules
+	 */
+	public function accessRules()
+	{
+		return array(
+			array('allow',  // allow all users to perform 'index' and 'view' actions
+				'actions'=>array('index','view'),
+				'users'=>array('*'),
+			),
+			array('allow', // allow authenticated user to perform 'create' and 'update' actions
+				'actions'=>array('create','update', 'admin', 'delete', 'departAttendanceReport', 'customAttendanceReport', 'getAttendance'),
+				'users'=>array('sanjay'),
+			),
+			array('deny',  // deny all users
+				'users'=>array('*'),
+			),
+		);
+	}
+
 	public function actionDepartAttendanceReport(){
 		$model = new Attendance;
 		$departs = CHtml::listData(Department::model()->findAll(), 'department_id', 'department_name');
@@ -33,6 +66,31 @@ class AttendanceController extends Controller
 		$this->render('customAttendanceReport', array('model'=>$model, 'staffs'=>$staffs, 'attendance'=>$attendance));
 	}
 
+	/**
+	 * gets attendance i.e. login and logout time of a staff based on ajax request.
+	 * @return [json] [login and logout time of staff]
+	 */
+	public function actiongetAttendance(){
+		if(isset($_GET)){
+			$id = (int) $_GET['uid'];
+			$date = $_GET['date'];
+			/*print_r($date >= date('Y-m-d', time()));
+			exit;*/
+			$attendance = Attendance::model()->findByAttributes(array('staff_id'=>$id), "FROM_UNIXTIME(login, '%Y-%m-%d') = '$date'");
+			if($date >= date('Y-m-d', time())){
+				$response['errors'] = 'You cannot edit attendance for this day.';
+			}elseif(empty($attendance)){
+				$response['new'] = 'new';
+			}elseif($id == Yii::app()->session['uid']){
+				$response['errors'] = 'You cannot edit you own attendance.';
+			}elseif(!empty($attendance->login)){
+				$response['login'] = date('H:i', $attendance->login);
+				$response['aid'] = $attendance->id;
+				$response['logout'] = ((empty($attendance->logout)) ? '' : date('H:i', $attendance->logout));
+			}
+			echo json_encode($response);
+		}
+	}
 	// Uncomment the following methods and override them if needed
 	/*
 	public function filters()

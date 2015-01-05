@@ -16,8 +16,8 @@
                 array('label'=>'Attendance', 'url'=>Yii::app()->createUrl('Staff/attendanceReport'), 'icon'=>'icon-calendar'),
                 array('label'=>'Reports', 'url'=>'#', 'icon'=>'icon-paper-clip', 'items'=>array(
                                array('label'=>'Attendance Report', 'url'=>Yii::app()->createUrl('/Attendance/departAttendanceReport'), 'icon'=>'icon-calendar'),
-                    array('label'=>'Salary Sheet', 'url'=>Yii::app()->createUrl('/Staff/salarySheet'), 'icon'=>'icon-file'),
-
+                                    array('label'=>'Payroll Sheet', 'url'=>Yii::app()->createUrl('/Staff/payrollSheet/'.Yii::app()->session['uid']), 'icon'=>'icon-user'),
+                                    array('label'=>'Salary Sheet', 'url'=>Yii::app()->createUrl('/Staff/salarySheet/'), 'icon'=>'icon-file'),
                 	)),
                   array('label'=>'Settings', 'url'=>Yii::app()->createUrl('Site/Settings'), 'icon'=>'icon-gear'),
             ),
