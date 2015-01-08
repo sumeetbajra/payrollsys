@@ -153,7 +153,13 @@ echo CHtml::dropDownList('grades', $model->grade, $data, array('prompt'=>'Select
 </table>
 
 <p class="note">Fields with <span class="required">*</span> are required.</p>
-   <?php $form->widget('bootstrap.widgets.TbButton', array('buttonType'=>'submit', 'id' => 'sbutton','type'=>'success', 'label'=>'Create')); ?>
+   <?php 
+   if(isset($update)){
+    $button = 'Update';
+   }else{
+    $button = 'Create';
+   }
+   $form->widget('bootstrap.widgets.TbButton', array('buttonType'=>'submit', 'id' => 'sbutton','type'=>'success', 'label'=>$button)); ?>
    
    
            <?php $form->widget('bootstrap.widgets.TbButton', array('buttonType'=>'reset', 'icon'=>'icon-remove-sign white', 'label'=>'Reset', 'htmlOptions'=>array('class'=>'btnreset btn-input-small'))); ?></td><td></td>

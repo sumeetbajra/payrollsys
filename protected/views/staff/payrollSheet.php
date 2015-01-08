@@ -136,7 +136,10 @@ $this->widget('bootstrap.widgets.TbBreadcrumbs', array(
 			TDS
 		</td>
 		<td>
-			<?php echo $tds = $staff->getTdsRate($staff->staff_id, $gsalary); ?>
+			Rs. <?php 
+				$tds = $staff->getTdsRate($staff->staff_id, $gsalary); 
+				echo number_format((float)$tds, 2, '.', '');
+			?>
 		</td>
 	</tr>
 	<tr>

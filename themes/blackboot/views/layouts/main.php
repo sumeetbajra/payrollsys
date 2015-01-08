@@ -107,8 +107,8 @@ box-shadow: none;
 				
 			</div> <!-- /span6 -->
 			<div id="footer-terms" class="col-md-6">
-				<a id="back-to-top" href="#" class="btn btn-null btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="icon-chevron-sign-up"></span></a>
-				© 2014 All Rights Reserved. <a href="http://nachi.me.pn" target="_blank">Sumit Bajracharya</a>.
+				<!-- <a id="back-to-top" href="#" class="btn btn-null btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="icon-chevron-sign-up"></span></a> -->
+				© 2014 All Rights Reserved. <a href="http://nachi.me.pn" target="_blank">Third Pole Connects</a>.
 			</div> <!-- /.span6 -->
 		 </div> <!-- /row -->
 	  </div> <!-- /container -->

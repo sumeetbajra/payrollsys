@@ -88,21 +88,25 @@ class StaffController extends Controller
 		        $array1[$value->department_id] = $value->department_name;
 		    }
 
-		if(isset($_POST['Staff']))
+		if(isset($_POST['Staff']) && !empty($_POST['designation']))
 		{
 			$model->attributes=$_POST['Staff'];
 			$model->join_date = strtotime($model->join_date);
 			$model->designation_id = Designation::model()->findByAttributes(array('designation'=>strtolower($_POST['designation']), 'grade'=>$_POST['grades']))->id;
-			$model->username = strtolower($model->fname);
 			$model->created_date = time();
 			$model->password = hash('sha256', (hash('sha256', $model->created_date)).'password');
 			if($model->save()){
+				$model->username = 'TPC'.$model->id;
+				$model->save();
 				$officeTime->attributes = $_POST['StaffOfficeTime'];
 				$officeTime->staff_id = $model->staff_id;
 				$officeTime->effective_date = date('Y-m-d H:i', time());
 				$officeTime->save();
+				Yii::app()->user->setFlash('success', 'Staff has been created successfully');
 				$this->redirect(array('staffAllowance','id'=>$model->staff_id));
 			}
+		}elseif(empty($_POST['designation'])){
+			$model->addError('fname', 'Designation cannot be empty');
 		}
 
 		$this->render('create',array(

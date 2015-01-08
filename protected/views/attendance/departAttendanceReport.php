@@ -47,6 +47,8 @@ $this->widget('bootstrap.widgets.TbGridView',array(
     	'designation: Designation',
     	'lates: Late Attendance',
     	'earlies: Early Leaves',
+            array('header'=>'Absent', 'value'=>'0'
+                ),
           array(
             'header'=>'<a>Actions</a>',
             'class'=>'bootstrap.widgets.TbButtonColumn',

@@ -6,6 +6,7 @@ $this->menu=array(
     ); 
 
 }else{
+    $user = Staff::model()->findByPk(Yii::app()->session['uid']);
 $this->menu=array(
     array('label'=>'<i class="icon-th"></i>Dashboard', 'active'=>'true', 'url'=>Yii::app()->controller->createUrl('/Site'), 'linkOptions'=>array()),
     array('label'=>'<i class="icon-user"></i>User Details', 'url'=>Yii::app()->controller->createUrl('/Staff/'.$user->staff_id), 'linkOptions'=>array()),
@@ -60,7 +61,7 @@ $this->menu=array(
  
 <div class="modal-header">
     <a class="close" data-dismiss="modal">&times;</a>
-    <h4 style="text-transform:none">Reset username and password</h4>
+    <h4 style="text-transform:none">Reset password</h4>
 </div>
  
 <div class="modal-body">

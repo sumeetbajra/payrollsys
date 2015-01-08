@@ -33,5 +33,5 @@ $this->menu=array(
 ))); ?>
 
 <div>
-<?php $this->renderPartial('_form', array('model'=>$model, 'array'=>$array, 'array1'=>$array1, 'officeTime'=>$officeTime)); ?>
+<?php $this->renderPartial('_form', array('model'=>$model, 'array'=>$array, 'array1'=>$array1, 'officeTime'=>$officeTime, 'update'=>'true')); ?>
 </div>

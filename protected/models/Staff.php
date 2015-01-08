@@ -41,10 +41,14 @@ class Staff extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('fname, lname, address, contact, username, password, department_id, designation_id, join_date, email, created_date, marital_status', 'required'),
+			array('fname, lname, address, contact, password, department_id, designation_id, join_date, email, created_date, marital_status', 'required'),
 			array('department_id, designation_id, join_date, verified_email, created_date', 'numerical', 'integerOnly'=>true),
 			array('fname, lname, address, contact, username, password, email', 'length', 'max'=>100),
 			array('profile_pic', 'length', 'max'=>200),
+			array('email', 'unique', 'message' => 'Email address already in use', 'on' => 'insert'),
+			array('email', 'email'),
+			array('fname', 'match', 'pattern' => '/^[a-zA-Z\s]+$/', 'message' => 'First Name can only contain alphabet characters'),
+			array('lname', 'match', 'pattern' => '/^[a-zA-Z\s]+$/', 'message' => 'Last Name can only contain alphabet characters'),
 			array('token', 'length', 'max'=>300),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
