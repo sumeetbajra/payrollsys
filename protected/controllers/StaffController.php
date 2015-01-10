@@ -36,7 +36,7 @@ class StaffController extends Controller
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','create', 'delete', 'staffAllowance', 'viewAllowance', 'addAllowance', 'updateAllowance', 'PayrollSheet', 'updateStaffAllowance', 'DeleteStaffAllowance', 'AttendanceDetail', 'printWeekAttendance', 'departWeeklyAttendance', 'customAttendancePdf'),
+				'actions'=>array('admin','create', 'delete', 'staffAllowance', 'viewAllowance', 'addAllowance', 'updateAllowance', 'PayrollSheet', 'updateStaffAllowance', 'DeleteStaffAllowance', 'AttendanceDetail', 'printWeekAttendance', 'departWeeklyAttendance', 'customAttendancePdf', 'staffPayroll'),
 				'users'=>array('admin', 'sanjay'),
 			),
 			array('deny',  // deny all users
@@ -541,6 +541,11 @@ class StaffController extends Controller
 		$salary = Designation::model()->findByPk($staff->designation_id)->salary; 
 		$pfc = $staff->getPfc(time()) * $salary/100;
 		$this->render('payrollSheet', array('staff'=>$staff, 'gtotal'=>$gtotal, 'allowances'=>$allowances, 'salary'=>$salary, 'pfc'=>$pfc));
+	}
+
+	public function actionStaffPayroll(){
+		$model = new Staff;
+		$this->render('staffPayrollList', array('model'=>$model));
 	}
 
 	public function actionUpdateStaffAllowance(){

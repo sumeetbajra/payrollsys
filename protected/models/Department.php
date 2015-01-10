@@ -30,6 +30,7 @@ class Department extends CActiveRecord
 			array('department_name, head_id', 'required'),
 			array('head_id', 'numerical', 'integerOnly'=>true),
 			array('department_name', 'length', 'max'=>100),
+			array('department_name', 'match', 'pattern' => '/^[a-zA-Z\s]+$/', 'message' => 'Department name can only contain alphabet characters'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('department_id, department_name, head_id', 'safe', 'on'=>'search'),
@@ -56,7 +57,7 @@ class Department extends CActiveRecord
 		return array(
 			'department_id' => 'Department',
 			'department_name' => 'Department Name',
-			'head_id' => 'Head',
+			'head_id' => 'Department Head',
 		);
 	}
 

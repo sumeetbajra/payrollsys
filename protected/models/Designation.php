@@ -28,8 +28,9 @@ class Designation extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('designation, grade, salary', 'required'),
-			array('grade, salary', 'numerical', 'integerOnly'=>true),
+			array('grade, salary', 'numerical', 'integerOnly'=>true, 'min'=>0),
 			array('designation', 'length', 'max'=>100),
+			array('designation', 'match', 'pattern' => '/^[a-zA-Z\s]+$/', 'message' => 'Designation can only contain alphabet characters'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('id, designation, grade, salary', 'safe', 'on'=>'search'),

@@ -27,6 +27,7 @@ class Allowances extends CActiveRecord
 		return array(
 			array('allowanceName', 'required'),
 			array('allowanceName', 'length', 'max'=>200),
+			array('allowanceName', 'match', 'pattern' => '/^[a-zA-Z\s]+$/', 'message' => 'Allowance Name can only contain alphabet characters'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('allowanceId, allowanceName', 'safe', 'on'=>'search'),

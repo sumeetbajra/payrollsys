@@ -17,7 +17,7 @@
 )); ?>
 <h5>Please fill in the following details.</h5><hr>
 
-	<?php echo $form->errorSummary($model); ?>
+	<?php echo $form->errorSummary($model,'Please fix these errors!!!', null,array('class'=>'alert alert-error')); ?>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'department_name'); ?>

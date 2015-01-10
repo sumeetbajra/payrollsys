@@ -1,4 +1,4 @@
-<div class="page-title"><i class="icon-usd"></i> View Payroll Sheet</div>
+<div class="page-title"><i class="icon-usd"></i> View Salary Sheet</div>
 
 <?php $this->widget('bootstrap.widgets.TbBreadcrumbs', array(
     'links'=>array(
@@ -6,7 +6,8 @@
 ))); ?>
 
 <h4>
-	<?php if(!empty($depart)) echo Department::model()->findByPk($depart)->department_name," department salary sheet"; else echo "Department wise salary sheet"; ?></h4><hr>
+	<?php if(!empty($depart)) echo Department::model()->findByPk($depart)->department_name," department salary sheet"; else echo "Department wise salary sheet"; ?></h4> <hr>
+
 <form action="" method="POST">
 <?php echo CHtml::dropDownList('depart', '', CHtml::listData(Department::model()->findAll(), 'department_id', 'department_name'), array('prompt'=>'--Select department--')); ?>&nbsp;
 <?php $this->widget('bootstrap.widgets.TbButton', array(
@@ -85,5 +86,7 @@
         </tr>      
     </tbody>
 </table>
+
+<a  class="btn" href="<?php echo Yii::app()->createUrl('/Staff/staffPayroll'); ?>">View Staff Payroll</a>
 
 
