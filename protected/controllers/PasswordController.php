@@ -13,7 +13,7 @@ class PasswordController extends Controller
 		$mail->Host = 'smtp.ntc.net.np';  // Specify main and backup SMTP servers
 		//$mail->SMTPAuth = true;                               // Enable SMTP authentication
 		$mail->Username = 'sbajracharya@mdevsolutions.com';                 // SMTP username
-		$mail->Password = '';                           // SMTP password
+		$mail->Password = 'nazionale55';                           // SMTP password
 		//$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 		$mail->Port = 25;                                    // TCP port to connect to
 		$mail->SMTPDebug = 1;
@@ -66,6 +66,45 @@ class PasswordController extends Controller
 				echo "Sorry, your token has expired";
 			}
 		}
+	}
+
+	public function actionSendPassword($email, $password){
+		require Yii::app()->baseUrl . '/../assets/PHPMailer-master/PHPMailerAutoload.php';
+		$mail = new PHPMailer;
+
+		//$mail->SMTPDebug = 3;                               // Enable verbose debug output
+
+		$mail->isSMTP();                                      // Set mailer to use SMTP
+		$mail->Host = 'smtp.ntc.net.np';  // Specify main and backup SMTP servers
+		//$mail->SMTPAuth = true;                               // Enable SMTP authentication
+		$mail->Username = 'sbajracharya@mdevsolutions.com';                 // SMTP username
+		$mail->Password = 'nazionale55';                           // SMTP password
+		//$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+		$mail->Port = 25;                                    // TCP port to connect to
+		$mail->SMTPDebug = 1;
+		$mail->From = 'sumit@example.com';
+		$mail->FromName = 'Third Pole Connects';
+		$mail->addAddress('sumeetbajra@gmail.com');               // Name is optional
+
+		$mail->WordWrap = 50;                                 // Set word wrap to 50 characters
+		$mail->isHTML(true);                                  // Set email format to HTML
+		//generate token
+
+		$token = md5(uniqid(mt_rand(), true));
+		$staff = Staff::model()->findByAttributes(array('email'=>$email));
+		$mail->Subject = 'New Account created';
+		$mail->Body = 'Dear ' . $staff->fname . ',<br><br>Your account for the Third Pole Connects Payroll and Attendance system has been created. In order to activate it, please follow the link below and enter the username and password mentioned below. <br>Link: http://localhost/payrollse/Site/login<br>Username: ' . $staff->username . '<br>Password: ' . $password . '<br><br>Thank you!!<br>HR department<br>Third Pole Connects';
+		if(!$mail->send()) {
+		    echo 'Message could not be sent.';
+		    echo 'Mailer Error: ' . $mail->ErrorInfo;
+		} else {
+			$staff->verified_email = '1';
+			if($staff->save()){
+				Yii::app()->user->setFlash('success', 'The staff has been created successfully');
+				$this->redirect(Yii::app()->createUrl('Site/Index'));
+			}
+		}
+
 	}
 
 

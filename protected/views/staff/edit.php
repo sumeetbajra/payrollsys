@@ -31,7 +31,7 @@ $this->menu=array(
 
 }else{
 $this->menu=array(
-    array('label'=>'<i class="icon-th"></i>Dashboard', 'active'=>'true', 'url'=>Yii::app()->controller->createUrl('/Site'), 'linkOptions'=>array()),
+    array('label'=>'<i class="icon-th"></i>Dashboard', 'url'=>Yii::app()->controller->createUrl('/Site'), 'linkOptions'=>array()),
     array('label'=>'<i class="icon-user"></i>User Details', 'url'=>Yii::app()->controller->createUrl('/Staff/'.Yii::app()->session['uid']), 'linkOptions'=>array()),
     array('label'=>'<i class="icon-file-text-alt"></i>Payroll Details', 'url'=>Yii::app()->controller->createUrl('/Staff/'.Yii::app()->session['uid']), 'linkOptions'=>array()),
     array('label'=>'<i class="icon-calendar"></i>Attendance Report', 'url'=>Yii::app()->controller->createUrl('/Staff/attendanceReport'), 'linkOptions'=>array()),
@@ -99,7 +99,15 @@ $this->menu=array(
 
 <tr>
     <td><b>Staff Self pf</b></td>
-    <td><?php echo $form->textFieldRow($model, 'selfPf', array('class'=>'span7', 'prepend'=>'Rs.')) ?></td>
+    <?php
+    $selfpf = StaffSelfpf::model()->findAllByAttributes(array('staff_id'=>$model->staff_id), array('order'=>'effective_date DESC'));
+    if(empty($selfpf)){
+        $selfpf = 0;
+    }else{
+        $selfpf = $selfpf[0]->amount;
+    }
+    ?>
+    <td><?php echo $form->textFieldRow($model, 'selfPf', array('class'=>'span7', 'prepend'=>'Rs.', 'value'=>$selfpf)) ?></td>
 </tr>
 </table>
    <?php $form->widget('bootstrap.widgets.TbButton', array('buttonType'=>'submit', 'id' => 'sbutton','type'=>'primary', 'label'=>'Update')); ?>

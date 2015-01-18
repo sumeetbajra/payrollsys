@@ -66,6 +66,8 @@ class UserIdentity extends CUserIdentity
 					exit;*/
 					$attendance->save();
 					Yii::app()->user->setState('login_id', $attendance->id);
+				}elseif(empty($attendance->logout)){
+					Yii::app()->user->setState('login_id', $attendance->id);
 				}
 			}			
 			$users=array(

@@ -1,4 +1,25 @@
 <?php $this->beginContent('//layouts/main'); ?>
+
+<?php
+$login_id = Yii::app()->user->getState('login_id');
+if(empty($login_id)){
+    $logout =    array(
+            'class'=>'bootstrap.widgets.TbMenu',
+            'htmlOptions'=>array('class'=>'pull-right'),
+            'items'=>array(
+                array('label'=>'Logout', 'url'=>Yii::app()->createUrl('Site/logout')),    
+            ));
+}else{
+    $logout = array(
+            'class'=>'bootstrap.widgets.TbMenu',
+            'htmlOptions'=>array('class'=>'pull-right', 'data-toggle'=>'modal',
+        'data-target'=>'#myModal'),
+            'items'=>array(
+                array('label'=>'Logout', 'url'=>'#'),              
+            ));
+}
+?>
+
 <?php $this->widget('bootstrap.widgets.TbNavbar', array(
     'type'=>'null', // null or 'inverse'
     'brand'=>'Payroll and Attendance System',
@@ -16,21 +37,15 @@
                 array('label'=>'Attendance', 'url'=>Yii::app()->createUrl('Staff/attendanceReport'), 'icon'=>'icon-calendar'),
                 array('label'=>'Reports', 'url'=>'#', 'icon'=>'icon-paper-clip', 'items'=>array(
                                array('label'=>'Attendance Report', 'url'=>Yii::app()->createUrl('/Attendance/departAttendanceReport'), 'icon'=>'icon-calendar'),
-                                    array('label'=>'Payroll Sheet', 'url'=>Yii::app()->createUrl('/Staff/payrollSheet/'.Yii::app()->session['uid']), 'icon'=>'icon-user'),
-                                    array('label'=>'Salary Sheet', 'url'=>Yii::app()->createUrl('/Staff/salarySheet/'), 'icon'=>'icon-file'),
+                                    array('label'=>'My Payroll Sheet', 'url'=>Yii::app()->createUrl('/Staff/payrollSheet/'.Yii::app()->session['uid']), 'icon'=>'icon-user'),
+                    array('label'=>'Salary Sheet', 'url'=>Yii::app()->createUrl('/Staff/salarySheet/'), 'icon'=>'icon-file'),
+                    array('label'=>'Staff Payroll Sheet', 'url'=>Yii::app()->createUrl('/Staff/staffPayroll/'), 'icon'=>'icon-group'),
                 	)),
                   array('label'=>'Settings', 'url'=>Yii::app()->createUrl('Site/Settings'), 'icon'=>'icon-gear'),
             ),
         ),
       
-        array(
-            'class'=>'bootstrap.widgets.TbMenu',
-            'htmlOptions'=>array('class'=>'pull-right'),
-            'items'=>array(
-                array('label'=>'Logout', 'url'=>Yii::app()->createUrl('Site/logout')),
-              
-            ),
-        ),
+        $logout,
     ),
 )); ?>
       <div class="row-fluid">
@@ -60,4 +75,42 @@
 <?php $this->endContent(); ?>
 
 
+<?php $this->beginWidget('bootstrap.widgets.TbModal', array('id'=>'myModal')); ?>
+ 
+<div class="modal-header">
+    <a class="close" data-dismiss="modal">&times;</a>
+    <h4>Are you sure?</h4>
+</div>
+ 
+<div class="modal-body">
+    <p>Logging out of the system will record your logout time for today as well.<br>
+        Logout time to be recorded: <?php echo  date('h:i a', time()); ?><br>
+        Logout status: 
+        <?php 
+        $logout = StaffOfficeTime::model()->findAllByAttributes(array('staff_id'=>Yii::app()->session['uid']), array('order'=>'effective_date DESC'));
+        $logout = $logout[0]->end_time;
+        if(date('H:i:s', time()) < $logout){
+            echo "Early";
+        }else{
+            echo "On time";
+        }
+        ?>
+    </p>
+</div>
+ 
+<div class="modal-footer">
+    <?php $this->widget('bootstrap.widgets.TbButton', array(
+        'type'=>'primary',
+        'label'=>'Confirm',
+        'url'=>Yii::app()->createUrl('/Site/logout'),
+        'htmlOptions'=>array(),
+    )); ?>
+    <?php $this->widget('bootstrap.widgets.TbButton', array(
+        'label'=>'Cancel',
+        'url'=>'#',
+        'htmlOptions'=>array('data-dismiss'=>'modal'),
+    )); ?>
+</div>
+ 
+<?php $this->endWidget(); ?>
 

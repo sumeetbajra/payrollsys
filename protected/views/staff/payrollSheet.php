@@ -8,21 +8,32 @@ table tr td:nth-child(2), table tr td:nth-child(4){
 
 include('numberToWord.php');
 
+if(Yii::app()->user->getState('role') == 'exco'){
 $this->menu=array(
     array('label'=>'<i class="icon-th"></i>Dashboard', 'url'=>Yii::app()->controller->createUrl('/Site/index'), 'linkOptions'=>array()),
     array('label'=>'<i class="icon-building"></i>Manage departments', 'url'=>Yii::app()->controller->createUrl('/Department/admin'), 'linkOptions'=>array()),
     array('label'=>'<i class="icon-group"></i>Manage designation', 'url'=>Yii::app()->controller->createUrl('/designation/admin'), 'linkOptions'=>array()),
     array('label'=>'<i class="icon-tags"></i>Manage allowances', 'url'=>Yii::app()->controller->createUrl('/allowances/admin'), 'linkOptions'=>array()),
+    array('label'=>'<i class="icon-chevron-sign-left"></i>Back', 'url'=>Yii::app()->controller->createUrl('/staff/staffPayroll'), 'linkOptions'=>array()),
     ); 
-
+}else{
+    $user = Staff::model()->findByPk(Yii::app()->session['uid']);
+    $this->menu=array(
+    array('label'=>'<i class="icon-th"></i>Dashboard', 'url'=>Yii::app()->controller->createUrl('/Site'), 'linkOptions'=>array()),
+    array('label'=>'<i class="icon-user"></i>User Details', 'url'=>Yii::app()->controller->createUrl('/Staff/'.$user->staff_id), 'linkOptions'=>array()),
+    array('label'=>'<i class="icon-file-text-alt"></i>Payroll Sheet', 'active'=>'true', 'url'=>Yii::app()->controller->createUrl('/Staff/payrollSheet/'.$user->staff_id), 'linkOptions'=>array()),
+    array('label'=>'<i class="icon-calendar"></i>Attendance Report', 'url'=>Yii::app()->controller->createUrl('/Staff/attendanceReport'), 'linkOptions'=>array()),
+    array('label'=>'<i class="icon-gears"></i>Settings', 'url'=>Yii::app()->controller->createUrl('/Site/Settings'), 'linkOptions'=>array()),
+    );
+}
 ?>
 
-<div class="page-title"><i class="icon-file-text-alt"></i> Salary Sheet</i></div>
+<div class="page-title"><i class="icon-file-text-alt"></i> Payroll Sheet</i></div>
 
-<?php 
-$this->widget('bootstrap.widgets.TbBreadcrumbs', array(
+<?php $this->widget('bootstrap.widgets.TbBreadcrumbs', array(
     'links'=>array(
-    	'Payroll Sheet',
+        'Staff Payroll' => array('staff/staffPayroll'),
+        $staff->fname. ' '. $staff->lname,
 ))); ?>
 
 <h4>Payroll sheet for <?php echo $staff->fname, ' ', $staff->lname;?> for the month of <?php echo date('F', time()); ?></h4><hr>

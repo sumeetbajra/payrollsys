@@ -32,7 +32,7 @@ class StaffController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('update', 'changePassword', 'attendanceReport', 'attendanceStatistics', 'edit', 'salarySheet'),
+				'actions'=>array('changePassword', 'attendanceReport', 'attendanceStatistics', 'edit', 'payrollSheet'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -94,19 +94,28 @@ class StaffController extends Controller
 			$model->join_date = strtotime($model->join_date);
 			$model->designation_id = Designation::model()->findByAttributes(array('designation'=>strtolower($_POST['designation']), 'grade'=>$_POST['grades']))->id;
 			$model->created_date = time();
-			$model->password = hash('sha256', (hash('sha256', $model->created_date)).'password');
+			$alphabet = "abcdefghijklmnopqrstuwxyzABCDEFGHIJKLMNOPQRSTUWXYZ0123456789";
+			$pass = array(); //remember to declare $pass as an array
+			$alphaLength = strlen($alphabet) - 1; //put the length -1 in cache
+			for ($i = 0; $i < 8; $i++) {
+				$n = rand(0, $alphaLength);
+				$pass[] = $alphabet[$n];
+			}
+    			$password = implode($pass); //turn the array into a string
+			$model->password = hash('sha256', (hash('sha256', $model->created_date)).$password);
 			if($model->save()){
-				$model->username = 'TPC'.$model->id;
+				$model->username = 'TPC'.Yii::app()->db->getLastInsertId();
 				$model->save();
 				$officeTime->attributes = $_POST['StaffOfficeTime'];
 				$officeTime->staff_id = $model->staff_id;
 				$officeTime->effective_date = date('Y-m-d H:i', time());
 				$officeTime->save();
 				Yii::app()->user->setFlash('success', 'Staff has been created successfully');
-				$this->redirect(array('staffAllowance','id'=>$model->staff_id));
+				$this->redirect('../Password/sendPassword?email='.$model->email.'&password='.$password);
 			}
-		}elseif(empty($_POST['designation'])){
-			$model->addError('fname', 'Designation cannot be empty');
+			if(empty($_POST['designation'])){
+				$model->addError('fname', 'Designation cannot be empty');
+			}
 		}
 
 		$this->render('create',array(
@@ -545,6 +554,9 @@ class StaffController extends Controller
 
 	public function actionStaffPayroll(){
 		$model = new Staff;
+		if(isset($_GET['Staff'])){
+			$model->attributes = $_GET['Staff'];
+		}
 		$this->render('staffPayrollList', array('model'=>$model));
 	}
 

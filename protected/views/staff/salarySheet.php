@@ -87,6 +87,4 @@
     </tbody>
 </table>
 
-<a  class="btn" href="<?php echo Yii::app()->createUrl('/Staff/staffPayroll'); ?>">View Staff Payroll</a>
-
 

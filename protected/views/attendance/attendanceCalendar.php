@@ -19,18 +19,34 @@ display:none;
 </style>
 
 <?php
-
+if(Yii::app()->user->getState('role') == 'exco'){
 $this->menu=array(
     array('label'=>'<i class="icon-th"></i>Dashboard', 'url'=>Yii::app()->controller->createUrl('/Site/index'), 'linkOptions'=>array()),
     array('label'=>'<i class="icon-building"></i>Manage departments', 'url'=>Yii::app()->controller->createUrl('/Department/admin'), 'linkOptions'=>array()),
     array('label'=>'<i class="icon-group"></i>Manage designation', 'url'=>Yii::app()->controller->createUrl('/designation/admin'), 'linkOptions'=>array()),
     array('label'=>'<i class="icon-tags"></i>Manage allowances', 'url'=>Yii::app()->controller->createUrl('/allowances/admin'), 'linkOptions'=>array()),
     ); 
+}else{
+    $user = Staff::model()->findByPk(Yii::app()->session['uid']);
+    $this->menu=array(
+    array('label'=>'<i class="icon-th"></i>Dashboard', 'url'=>Yii::app()->controller->createUrl('/Site'), 'linkOptions'=>array()),
+    array('label'=>'<i class="icon-user"></i>User Details', 'url'=>Yii::app()->controller->createUrl('/Staff/'.$user->staff_id), 'linkOptions'=>array()),
+    array('label'=>'<i class="icon-file-text-alt"></i>Payroll Sheet', 'url'=>Yii::app()->controller->createUrl('/Staff/payrollSheet/'.$user->staff_id), 'linkOptions'=>array()),
+    array('label'=>'<i class="icon-calendar"></i>Attendance Report',  'active'=>'true', 'url'=>Yii::app()->controller->createUrl('/Staff/attendanceReport'), 'linkOptions'=>array()),
+    array('label'=>'<i class="icon-gears"></i>Settings', 'url'=>Yii::app()->controller->createUrl('/Site/Settings'), 'linkOptions'=>array()),
+    );
+}
 
 $staff = Staff::model()->with('officeTime')->findByPk(Yii::app()->session['uid']);
 ?>
 
 <div class="page-title"><i class="icon-calendar"></i> Attendance Report</i></div>
+
+<?php $this->widget('bootstrap.widgets.TbBreadcrumbs', array(
+    'links'=>array(
+        'Attendance Report',
+))); ?>
+
 
 <h5>Attendance Report for <?php echo $staff->fname; ?> (Office time: <?php echo date('h:i a', strtotime($staff['officeTime'][0]->start_time)) . ' to ' .  date('h:i a', strtotime($staff['officeTime'][0]->end_time));?>)</h5><br>
 

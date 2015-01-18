@@ -14,7 +14,7 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 <h5>Please fill in the following details.</h5><hr>
-<?php echo $form->errorSummary($model,'Oops!!!', null,array('class'=>'alert alert-error span12')); ?>
+<?php echo $form->errorSummary($model,'Oops!!!', null,array('class'=>'alert alert-error')); ?>
 <?php $this->widget('bootstrap.widgets.TbAlert', array(
         'block'=>true, // display a larger alert block?
         'fade'=>true, // use transitions?

@@ -14,4 +14,5 @@ $this->breadcrumbs=array(
 <?php echo CHtml::encode($message); ?>
 </div>
 
-If you believe you shouldn't be seeing this message, please contact the HR department.
+If you believe you shouldn't be seeing this message, please contact the HR department.<br>
+Click <u><a href="<?php echo $_SERVER['HTTP_REFERER'];?>">here</a></u> to go back.

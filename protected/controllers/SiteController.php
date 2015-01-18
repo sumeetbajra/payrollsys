@@ -67,7 +67,15 @@ class SiteController extends Controller
 		$model = new Staff;
 		$user = Staff::model()->findByPk(Yii::app()->session['uid']);
 		$attendance = Attendance::model()->findByAttributes(array('staff_id'=>Yii::app()->session['uid']), array('order'=>'login DESC'));
-		$this->render('index', array('user'=>$user, 'attendance'=>$attendance));
+		$month = date('F', time());
+		$firstday = strtotime( 'first day of ' . date('F Y'));
+		$lastday = strtotime( 'last day of ' . date('F Y'));
+		$present = count(Attendance::model()->findAllByAttributes(array('staff_id'=>Yii::app()->session['uid']), 'login > "' . $firstday . '"AND logout < "' . $lastday . '"'));
+		$late = count(Attendance::model()->findAllByAttributes(array('staff_id'=>Yii::app()->session['uid'], 'login_status'=>'Late'), 'login > "' . $firstday . '"AND logout < "' . $lastday . '"'));
+		$early = count(Attendance::model()->findAllByAttributes(array('staff_id'=>Yii::app()->session['uid'], 'logout_status'=>'Early'), 'login > "' . $firstday . '"AND logout < "' . $lastday . '"'));
+		$ontime = count(Attendance::model()->findAllByAttributes(array('staff_id'=>Yii::app()->session['uid'], 'login_status'=>'On time'), 'login > "' . $firstday . '"AND logout < "' . $lastday . '"'));
+		$absent = cal_days_in_month(CAL_GREGORIAN, date('m'), date('Y')) - $present;
+		$this->render('index', array('user'=>$user, 'attendance'=>$attendance, 'month'=>$month, 'late'=>$late, 'early'=>$early, 'ontime'=>$ontime, 'absent'=>$absent));
 	}
 
 	/**

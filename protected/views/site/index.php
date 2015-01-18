@@ -72,7 +72,7 @@ $this->menu=array(
 $this->menu=array(
     array('label'=>'<i class="icon-th"></i>Dashboard', 'active'=>'true', 'url'=>Yii::app()->controller->createUrl('/Site'), 'linkOptions'=>array()),
     array('label'=>'<i class="icon-user"></i>User Details', 'url'=>Yii::app()->controller->createUrl('/Staff/'.$user->staff_id), 'linkOptions'=>array()),
-    array('label'=>'<i class="icon-file-text-alt"></i>Payroll Details', 'url'=>Yii::app()->controller->createUrl('/Staff/'.$user->staff_id), 'linkOptions'=>array()),
+    array('label'=>'<i class="icon-file-text-alt"></i>Payroll Sheet', 'url'=>Yii::app()->controller->createUrl('/Staff/payrollSheet/'.$user->staff_id), 'linkOptions'=>array()),
     array('label'=>'<i class="icon-calendar"></i>Attendance Report', 'url'=>Yii::app()->controller->createUrl('/Staff/attendanceReport'), 'linkOptions'=>array()),
     array('label'=>'<i class="icon-gears"></i>Settings', 'url'=>Yii::app()->controller->createUrl('/Site/Settings'), 'linkOptions'=>array()),
     /*array('label'=>'<i class="icon-calendar"></i>Attendance Report', 'url'=>Yii::app()->controller->createUrl('/Site/AttendanceReport'), 'linkOptions'=>array()),
@@ -192,7 +192,7 @@ echo Yii::app()->user->setFlash('info', $info); ?>
     <?php
 $this->Widget('ext.highcharts.highcharts.HighchartsWidget', array(
     'options'=>array(
-        'title' => array('text' => 'Attendance Statistics for December'),
+        'title' => array('text' => 'Attendance Statistics for '.$month),
         'xAxis' => array(
             'categories' => array('
                 On time', 'Late Entry', 'Absent', 'Early Exit
@@ -204,7 +204,7 @@ $this->Widget('ext.highcharts.highcharts.HighchartsWidget', array(
         ),
         'series' => array(
             array('name' => 'No of days', 'data' => array(
-        2, 3, 6, 1
+        $ontime, $late, $absent, $early
             )),
 
         ),
