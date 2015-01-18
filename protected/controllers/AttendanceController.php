@@ -22,6 +22,14 @@ class AttendanceController extends Controller
 	 */
 	public function accessRules()
 	{
+		$superadmins = Staff::model()->findAllByAttributes(array('role'=>'superadmin'), array('select'=>'username'));
+	    	foreach ($superadmins as $value) {
+	    		$superadmin[] = $value->username;
+	    	}
+	    	$excos = Staff::model()->findAllByAttributes(array('role'=>'exco'), array('select'=>'username'));
+	    	foreach ($excos as $value) {
+	    		$exco[] = $value->username;
+	    	}
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
 				'actions'=>array('index','view'),
@@ -29,7 +37,11 @@ class AttendanceController extends Controller
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update', 'admin', 'delete', 'departAttendanceReport', 'customAttendanceReport', 'getAttendance'),
-				'users'=>array('sanjay'),
+				'users'=>$superadmin,
+			),
+			array('allow', // allow authenticated user to perform 'create' and 'update' actions
+				'actions'=>array('create','update', 'admin', 'delete', 'departAttendanceReport', 'customAttendanceReport', 'getAttendance'),
+				'users'=>$exco,
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),

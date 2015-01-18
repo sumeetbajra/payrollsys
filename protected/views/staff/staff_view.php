@@ -7,7 +7,7 @@
 	$model->staff_id,
 );*/
 
-if(Yii::app()->user->getState('role') == 'exco'){
+if(Yii::app()->user->getState('role') == 'superadmin'){
     $this->menu=array(
         array('label'=>'<i class="icon-user"></i> Manage Staff', 'url'=>array('admin')),
         array('label'=>'<i class="icon-plus"></i> Create Staff', 'url'=>array('create')),

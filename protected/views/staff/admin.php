@@ -52,8 +52,6 @@ $('.search-form form').submit(function(){
 
 <h4>All the registered staff</h4><hr>
 
-
-<?php Yii::app()->user->setFlash('success', 'The staff has been updated successfully.') ?>
 <?php $this->widget('bootstrap.widgets.TbAlert', array(
         'block'=>true, // display a larger alert block?
         'fade'=>true, // use transitions?

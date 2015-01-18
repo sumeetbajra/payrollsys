@@ -19,7 +19,7 @@ display:none;
 </style>
 
 <?php
-if(Yii::app()->user->getState('role') == 'exco'){
+if(Yii::app()->user->getState('role') == 'superadmin'){
 $this->menu=array(
     array('label'=>'<i class="icon-th"></i>Dashboard', 'url'=>Yii::app()->controller->createUrl('/Site/index'), 'linkOptions'=>array()),
     array('label'=>'<i class="icon-building"></i>Manage departments', 'url'=>Yii::app()->controller->createUrl('/Department/admin'), 'linkOptions'=>array()),

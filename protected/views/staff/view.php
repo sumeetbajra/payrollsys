@@ -18,7 +18,10 @@
                 <a class="btn dropdown-toggle btn-info" data-toggle="dropdown" href="#">
                     Action 
                     <span class="icon-cog icon-white"></span><span class="caret"></span>
-                </a>              
+                </a>          
+                 <ul class="dropdown-menu">
+                    <li><a href="<?php echo Yii::app()->createUrl('Staff/edit/'.Yii::app()->session['uid']); ?>"><span class="icon-wrench"></span> Modify</a></li>
+                </ul>    
             </div>
         </div>
 	</div>

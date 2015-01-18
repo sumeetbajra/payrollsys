@@ -76,11 +76,11 @@ class UserIdentity extends CUserIdentity
 				//'admin'=>'admin',
 			);
 			$role = Staff::model()->with('depart')->findByPk($user->staff_id);
-			$role = $role['depart']->department_name;
+			$role = $role->role;
 			if(strtolower($role) == 'exco'){
 				Yii::app()->user->setState('role', 'exco');
-			}elseif(strtolower($role) == 'human resource'){
-				Yii::app()->user->setState('role', 'hr');
+			}elseif(strtolower($role) == 'superadmin'){
+				Yii::app()->user->setState('role', 'superadmin');
 			}else{
 				Yii::app()->user->setState('role', 'staff');
 			}

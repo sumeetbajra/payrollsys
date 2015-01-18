@@ -61,7 +61,7 @@ font-size: 15px;
 </style>
 
 <?php
-if(Yii::app()->user->getState('role') == 'exco'){
+if(Yii::app()->user->getState('role') == 'superadmin'){
 $this->menu=array(
     array('label'=>'<i class="icon-building"></i> Manage departments', 'url'=>Yii::app()->controller->createUrl('/Department/admin'), 'linkOptions'=>array()),
     array('label'=>'<i class="icon-group"></i> Manage designation', 'url'=>Yii::app()->controller->createUrl('/designation/admin'), 'linkOptions'=>array()),
@@ -219,54 +219,63 @@ $this->Widget('ext.highcharts.highcharts.HighchartsWidget', array(
 ?>
   </div>
   <div class="span6">
+<?php
+if(Yii::app()->user->getState('role') == 'superadmin'){ ?>
     <h4><i class="icon-eye-open"></i> Activity Log</h4><hr>
-    <table class="table table-condensed table-bordered">
-            <thead>
-                <tr>
-                <th>User</th>
-                <th>Description</th>
-                <th>Date</th>
-            </tr>
-            </thead>
-            <tr>
-                <td>Sumit</td>
-                <td>Created Staff 10</td>
-                <td>2014/12/11</td>
-            </tr>
-               <tr>
-                <td>Sumit</td>
-                <td>Created Staff 11</td>
-                <td>2014/12/13</td>
-            </tr>
-               <tr>
-                <td>Sanjay</td>
-                <td>Created Allowance 'House'</td>
-                <td>2014/12/11</td>
-            </tr>
-             <tr>
-                <td>Jessica</td>
-                <td>Created edited TDS</td>
-                <td>2014/12/19</td>
-            </tr>
-             <tr>
-                <td>Anil</td>
-                <td>Created Staff 14</td>
-                <td>2014/12/11</td>
-            </tr>
-             <tr>
-                <td>Sumit</td>
-                <td>Edited Staff 10</td>
-                <td>2014/12/21</td>
-            </tr>
-             <tr>
-                <td>Sumit</td>
-                <td>Deleted Staff 10</td>
-                <td>2014/12/181</td>
-            </tr>
-    </table>
+    <?php 
+    $activelog = new ActiveRecordLog;
+    $this->widget('bootstrap.widgets.TbGridView', array(
+    'id'=>'staff-grid',
+    'type'=>'striped bordered',
+    'dataProvider'=>$activelog->search(),
+    'template'=>'{items}{pager}',
+    'columns'=>array(
+        array(
+            'header'=>'S.N',
+            'value'=>'$row+1',
+            ),
+        'description',
+        'action',
+        'creationdate: Date',
+       
+    ),
+)); ?>
+<?php }else{ ?>
+<h4><i class="icon-calendar"></i> This Week's Attendance History</h4><hr>
 
+<?php 
+$model = new Attendance;
+$model->staff_id = Yii::app()->session['uid'];
+$this->widget('bootstrap.widgets.TbGridView',array(
+    'id'=>'attendance-grid',
+    'dataProvider'=>$model->thisWeekSearch1($model->staff_id),
+    'type'=>'striped bordered',
+    'template'=>'{pager}{items}{pager}',
+    'columns'=>array(
+        array(
+            'header'=>'S.N',
+            'value'=>'$row+1',
+            ),
+        array(
+            'header'=>'Date',
+            'value'=>'$data["date"]',
+            ), 
+        array(
+            'header'=>'Login Time',
+            'value'=>'$data["login_time"]'
+            ),     
+        array(
+            'header'=>'Logout Time',
+            'value'=>'(empty($data["logout_time"]) ? "-" : $data["logout_time"])'
+            ),
+      ),
+    ));
 
+?>
+
+<?php } ?>
   </div>
+
   
 </div>
 

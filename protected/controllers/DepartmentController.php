@@ -26,6 +26,10 @@ class DepartmentController extends Controller
 	 */
 	public function accessRules()
 	{
+		$superadmins = Staff::model()->findAllByAttributes(array('role'=>'superadmin'), array('select'=>'username'));
+	    	foreach ($superadmins as $value) {
+	    		$superadmin[] = $value->username;
+	    	}
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
 				'actions'=>array('index','view'),
@@ -33,7 +37,7 @@ class DepartmentController extends Controller
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update', 'admin', 'delete'),
-				'users'=>array('sanjay'),
+				'users'=>$superadmin,
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),

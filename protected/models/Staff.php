@@ -41,7 +41,7 @@ class Staff extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('fname, lname, address, contact, password, department_id, designation_id, join_date, email, created_date, marital_status', 'required'),
+			array('fname, lname, address, contact, password, department_id, designation_id, join_date, email, role, created_date, marital_status', 'required'),
 			array('department_id, designation_id, join_date, verified_email, created_date', 'numerical', 'integerOnly'=>true),
 			array('fname, lname, address, contact, username, password, email', 'length', 'max'=>100),
 			array('profile_pic', 'length', 'max'=>200),
@@ -92,6 +92,7 @@ class Staff extends CActiveRecord
 			'verified_email' => 'Verified Email',
 			'token' => 'Token',
 			'created_date' => 'Created Date',
+			'role'=>'Role',
 		);
 	}
 
@@ -252,4 +253,13 @@ class Staff extends CActiveRecord
 	public function getFullName() {
     		return $this->fname . ' ' . $this->lname;
 	}	
+
+	public function behaviors()
+	{
+	    return array(
+	        // Classname => path to Class
+	        'ActiveRecordLogableBehavior'=>
+	            'application.behaviors.ActiveRecordLogableBehavior',
+	    );
+	}
 }

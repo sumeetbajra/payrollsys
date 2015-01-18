@@ -21,7 +21,7 @@ $this->breadcrumbs=array(
 
 ?>
 
-<?php if(Yii::app()->user->getState('role') == 'exco'){
+<?php if(Yii::app()->user->getState('role') == 'superadmin'){
 $this->menu=array(
     array('label'=>'<i class="icon-building"></i>Manage departments', 'url'=>Yii::app()->controller->createUrl('/Department/admin'), 'linkOptions'=>array()),
     array('label'=>'<i class="icon-group"></i>Manage designation', 'url'=>Yii::app()->controller->createUrl('/designation/admin'), 'linkOptions'=>array()),

@@ -72,7 +72,8 @@
                     ?>
 		
 	</td>
-
+    <td><?php echo $form->labelEx($model, 'role'); ?></td>
+   <td><?php echo $form->dropDownList($model, 'role', array('exco'=>'Exco', 'superadmin'=>'Super Admin', 'staff'=>'Staff'), array('class'=>'span7', 'prompt'=>'--Select user role--')) ?></td>
 </tr>
 <tr>
 <td>

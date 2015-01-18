@@ -134,4 +134,13 @@ class StaffAllowance extends CActiveRecord
 		 $result = Yii::app()->db->createCommand($sql)->queryAll();
 		 return $result;
 	}
+
+	public function behaviors()
+	{
+	    return array(
+	        // Classname => path to Class
+	        'ActiveRecordLogableBehavior'=>
+	            'application.behaviors.ActiveRecordLogableBehavior',
+	    );
+	}
 }

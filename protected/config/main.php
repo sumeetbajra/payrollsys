@@ -27,7 +27,7 @@ return array(
 		'application.models.*',
 		'application.components.*',
 		'ext.easyimage.EasyImage',
-		  'editable.*' //easy include of editable classes
+		'editable.*' //easy include of editable classes
 	),
 
 	'modules'=>array(
@@ -39,7 +39,6 @@ return array(
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
-		
 	),
 
 	// application components
@@ -52,6 +51,7 @@ return array(
         		),
 
 		'user'=>array(
+			//'class' => 'RWebUser',
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),

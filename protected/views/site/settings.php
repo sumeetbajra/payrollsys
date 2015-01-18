@@ -1,4 +1,4 @@
-<?php if(Yii::app()->user->getState('role') == 'exco'){
+<?php if(Yii::app()->user->getState('role') == 'superadmin'){
 $this->menu=array(
     array('label'=>'<i class="icon-building"></i>Manage departments', 'url'=>Yii::app()->controller->createUrl('/Department/admin'), 'linkOptions'=>array()),
     array('label'=>'<i class="icon-group"></i>Manage designation', 'url'=>Yii::app()->controller->createUrl('/designation/admin'), 'linkOptions'=>array()),
@@ -50,7 +50,7 @@ $this->menu=array(
         array('label'=>'Change system settings'),
         array('label'=>'Edit User details', 'icon'=>'user', 'url'=>Yii::app()->createUrl('/Staff/edit/'.Yii::app()->session["uid"]), 'linkOptions'=>array()),
         array('label'=>'Change password', 'icon'=>'key', 'url'=>'#', 'linkOptions'=>array('data-target'=>'#myModal', 'data-toggle'=>'modal')),
-        array('label'=>'User log', 'icon'=>'icon-eye-open', 'url'=>'', 'linkOptions'=>array('id'=>'time')),
+        //array('label'=>'User log', 'icon'=>'icon-eye-open', 'url'=>'', 'linkOptions'=>array('id'=>'time')),
         array('label'=>'Change Provident Funds', 'icon'=>'icon-inr', 'url'=>Yii::app()->createUrl('/Site/changePf')),
          array('label'=>'Manage TDS Rates', 'icon'=>'icon-bar-chart', 'url'=>Yii::app()->createUrl('/TdsRate/admin')),
     ),

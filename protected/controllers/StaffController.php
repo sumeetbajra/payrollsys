@@ -14,7 +14,8 @@ class StaffController extends Controller
 	public function filters()
 	{
 		return array(
-			'accessControl', // perform access control for CRUD operations
+			//'rights', // perform access control for CRUD operations
+			'accessControl',
 			'postOnly + delete', // we only allow deletion via POST request
 		);
 	}
@@ -26,21 +27,33 @@ class StaffController extends Controller
 	 */
 	public function accessRules()
 	{
+		$superadmins = Staff::model()->findAllByAttributes(array('role'=>'superadmin'), array('select'=>'username'));
+	    	foreach ($superadmins as $value) {
+	    		$superadmin[] = $value->username;
+	    	}
+	    	$excos = Staff::model()->findAllByAttributes(array('role'=>'exco'), array('select'=>'username'));
+	    	foreach ($excos as $value) {
+	    		$exco[] = $value->username;
+	    	}
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
 				'actions'=>array('index','view', 'loadGrades'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('changePassword', 'attendanceReport', 'attendanceStatistics', 'edit', 'payrollSheet'),
+				'actions'=>array('changePassword', 'attendanceReport', 'attendanceStatistics', 'edit', 'payrollSheet', 'view'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','create', 'delete', 'staffAllowance', 'viewAllowance', 'addAllowance', 'updateAllowance', 'PayrollSheet', 'updateStaffAllowance', 'DeleteStaffAllowance', 'AttendanceDetail', 'printWeekAttendance', 'departWeeklyAttendance', 'customAttendancePdf', 'staffPayroll'),
-				'users'=>array('admin', 'sanjay'),
+				'actions'=>array('admin','create', 'update', 'delete', 'staffAllowance', 'viewAllowance', 'addAllowance', 'updateAllowance', 'PayrollSheet', 'updateStaffAllowance', 'DeleteStaffAllowance', 'AttendanceDetail', 'printWeekAttendance', 'departWeeklyAttendance', 'customAttendancePdf', 'staffPayroll', 'salarySheet'),
+				'users'=> $superadmin
 			),
-			array('deny',  // deny all users
-				'users'=>array('*'),
+			array('allow',  
+				'actions'=>array('changePassword', 'attendanceReport', 'attendanceStatistics', 'edit', 'payrollSheet', 'view', 'AttendanceDetail', 'printWeekAttendance', 'departWeeklyAttendance', 'customAttendancePdf'),
+				'users'=> $exco,
+			),
+			array('deny', 
+				'users' => array('*'),
 			),
 		);
 	}
