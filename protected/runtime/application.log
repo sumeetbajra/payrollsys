@@ -1317,3 +1317,2143 @@ Stack trace:
 REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
 HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
 ---
+2016/02/05 23:38:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/attendanceReport
+---
+2016/02/05 23:38:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:38:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:40:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Site/Index
+---
+2016/02/05 23:40:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:40:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:41:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Site/index
+---
+2016/02/05 23:41:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:41:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:43:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/departAttendanceReport
+---
+2016/02/05 23:43:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:43:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:43:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/attendanceDetail/1
+---
+2016/02/05 23:43:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:43:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:43:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/payrollSheet/1
+---
+2016/02/05 23:43:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:43:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:43:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Site/Settings
+---
+2016/02/05 23:43:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:43:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:43:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/salarySheet
+---
+2016/02/05 23:43:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:43:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:43:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/salarySheet
+---
+2016/02/05 23:43:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:43:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:43:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/attendanceReport
+---
+2016/02/05 23:43:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:43:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:44:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/attendanceStatistics
+---
+2016/02/05 23:44:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:44:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:44:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/attendanceReport
+---
+2016/02/05 23:44:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:44:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:44:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Site/Index
+---
+2016/02/05 23:44:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:44:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:44:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/departAttendanceReport
+---
+2016/02/05 23:44:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:44:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:45:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/departAttendanceReport
+---
+2016/02/05 23:45:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:45:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:45:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "uploadAttendance".' in /home/sumit/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/sumit/yii/framework/web/CController.php(270): CController->missingAction('uploadAttendanc...')
+#1 /home/sumit/yii/framework/web/CWebApplication.php(282): CController->run('uploadAttendanc...')
+#2 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Attendance/uplo...')
+#3 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/payrollse/Attendance/uploadAttendance
+HTTP_REFERER=http://localhost/payrollse/Attendance/departAttendanceReport
+---
+2016/02/05 23:45:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance
+---
+2016/02/05 23:45:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:45:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:47:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/sumit/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /home/sumit/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/sumit/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/sumit/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /home/sumit/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/sumit/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/sumit/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /home/sumit/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/sumit/yii/framework/web/CWebApplication.php(282): CController->run('uploadAttendanc...')
+#8 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Attendance/uplo...')
+#9 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/payrollse/Attendance/uploadAttendance
+HTTP_REFERER=http://localhost/payrollse/Attendance/departAttendanceReport
+---
+2016/02/05 23:47:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance
+---
+2016/02/05 23:47:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:47:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:47:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance
+---
+2016/02/05 23:48:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:48:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:49:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance
+---
+2016/02/05 23:49:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:49:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:50:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance
+---
+2016/02/05 23:50:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:50:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:50:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Site/Settings
+---
+2016/02/05 23:50:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:50:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:50:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/edit/1
+---
+2016/02/05 23:50:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:50:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:57:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance
+---
+2016/02/05 23:57:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:57:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:58:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance
+---
+2016/02/05 23:58:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:58:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:58:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Site/Index
+---
+2016/02/05 23:58:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:58:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/05 23:59:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Site/Index
+---
+2016/02/06 00:00:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance
+---
+2016/02/06 00:00:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:00:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:00:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance
+---
+2016/02/06 00:00:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:00:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:01:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---
+2016/02/06 00:01:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:01:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:01:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "departAttendanceReport".' in /home/sumit/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/sumit/yii/framework/web/CController.php(270): CController->missingAction('departAttendanc...')
+#1 /home/sumit/yii/framework/web/CWebApplication.php(282): CController->run('departAttendanc...')
+#2 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Staff/departAtt...')
+#3 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/payrollse/Staff/departAttendanceReport
+HTTP_REFERER=http://localhost/payrollse/Attendance/customAttendanceReport
+---
+2016/02/06 00:01:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/departAttendanceReport
+---
+2016/02/06 00:01:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:01:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:01:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Site/Index
+---
+2016/02/06 00:01:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:01:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:01:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/attendanceReport
+---
+2016/02/06 00:01:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:01:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:01:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/attendanceReport
+---
+2016/02/06 00:01:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:01:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:01:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/departAttendanceReport
+---
+2016/02/06 00:01:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:01:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:01:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance
+---
+2016/02/06 00:01:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:01:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:01:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance
+---
+2016/02/06 00:01:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:01:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:01:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance
+---
+2016/02/06 00:01:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:01:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:08:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance
+---
+2016/02/06 00:08:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:08:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:09:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance
+---
+2016/02/06 00:09:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:09:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:09:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance
+---
+2016/02/06 00:09:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:09:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:10:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/edit/1
+---
+2016/02/06 00:10:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:10:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:11:14 [warning] [application] Failed to set unsafe attribute "selfPf" of "Staff".
+in /home/sumit/projects/payrollse/protected/controllers/StaffController.php (359)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 00:11:14 [warning] [application] Failed to set unsafe attribute "uuid" of "Staff".
+in /home/sumit/projects/payrollse/protected/controllers/StaffController.php (359)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 00:11:14 [error] [php] move_uploaded_file(/home/sumit/projects/payrollse/protected/../images/user-pics/2382-Screenshot from 2015-12-07 21:22:05.png): failed to open stream: Permission denied (/home/sumit/yii/framework/web/CUploadedFile.php:198)
+Stack trace:
+#0 unknown(0): StaffController->actionEdit()
+#1 /home/sumit/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /home/sumit/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /home/sumit/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /home/sumit/yii/framework/web/filters/CFilterChain.php(133): StaffController->runAction()
+#5 /home/sumit/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/sumit/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#7 /home/sumit/yii/framework/web/filters/CInlineFilter.php(58): StaffController->filterAccessControl()
+#8 /home/sumit/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#9 /home/sumit/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/sumit/yii/framework/web/CController.php(265): StaffController->runActionWithFilters()
+#11 /home/sumit/yii/framework/web/CWebApplication.php(282): StaffController->run()
+#12 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#13 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/sumit/projects/payrollse/index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Staff/edit/1
+in /home/sumit/projects/payrollse/protected/controllers/StaffController.php (383)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 00:13:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance
+---
+2016/02/06 00:13:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:13:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:13:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance?csvfile=HisGLog_0001_20160206.csv&abc=1
+---
+2016/02/06 00:13:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:13:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:14:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance?csvfile=HisGLog_0001_20160206.csv&abc=1
+---
+2016/02/06 00:14:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:14:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:14:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance?csvfile=HisGLog_0001_20160206.csv&abc=1
+---
+2016/02/06 00:14:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:14:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:14:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance?abc=1
+---
+2016/02/06 00:14:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:14:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:14:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance?abc=1
+---
+2016/02/06 00:14:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:15:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:15:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance?abc=1
+---
+2016/02/06 00:15:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:15:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:16:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance?abc=1
+---
+2016/02/06 00:16:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:16:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:16:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance?abc=1
+---
+2016/02/06 00:16:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:16:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:16:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance?abc=1
+---
+2016/02/06 00:16:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:16:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:17:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance?abc=1
+---
+2016/02/06 00:17:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:17:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:18:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance?abc=1
+---
+2016/02/06 00:18:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:18:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:18:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance?abc=1
+---
+2016/02/06 00:18:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:18:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:21:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance?abc=1
+---
+2016/02/06 00:21:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:21:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:21:55 [error] [php] fopen(): Filename cannot be empty (/home/sumit/projects/payrollse/protected/controllers/AttendanceController.php:118)
+Stack trace:
+#0 /home/sumit/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/sumit/yii/framework/web/filters/CFilterChain.php(133): AttendanceController->runAction()
+#2 /home/sumit/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/sumit/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /home/sumit/yii/framework/web/filters/CInlineFilter.php(58): AttendanceController->filterAccessControl()
+#5 /home/sumit/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /home/sumit/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/sumit/yii/framework/web/CController.php(265): AttendanceController->runActionWithFilters()
+#8 /home/sumit/yii/framework/web/CWebApplication.php(282): AttendanceController->run()
+#9 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/sumit/projects/payrollse/index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Attendance/uploadAttendance?abc=1
+in /home/sumit/projects/payrollse/protected/controllers/AttendanceController.php (118)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 00:31:04 [error] [php] fgetcsv(): delimiter must be a character (/home/sumit/projects/payrollse/protected/controllers/AttendanceController.php:122)
+Stack trace:
+#0 /home/sumit/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/sumit/yii/framework/web/filters/CFilterChain.php(133): AttendanceController->runAction()
+#2 /home/sumit/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/sumit/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /home/sumit/yii/framework/web/filters/CInlineFilter.php(58): AttendanceController->filterAccessControl()
+#5 /home/sumit/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /home/sumit/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/sumit/yii/framework/web/CController.php(265): AttendanceController->runActionWithFilters()
+#8 /home/sumit/yii/framework/web/CWebApplication.php(282): AttendanceController->run()
+#9 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/sumit/projects/payrollse/index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Attendance/uploadAttendance?abc=1
+in /home/sumit/projects/payrollse/protected/controllers/AttendanceController.php (122)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 00:31:31 [error] [php] fgetcsv(): 3 is not a valid stream resource (/home/sumit/projects/payrollse/protected/controllers/AttendanceController.php:121)
+Stack trace:
+#0 /home/sumit/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/sumit/yii/framework/web/filters/CFilterChain.php(133): AttendanceController->runAction()
+#2 /home/sumit/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/sumit/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /home/sumit/yii/framework/web/filters/CInlineFilter.php(58): AttendanceController->filterAccessControl()
+#5 /home/sumit/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /home/sumit/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/sumit/yii/framework/web/CController.php(265): AttendanceController->runActionWithFilters()
+#8 /home/sumit/yii/framework/web/CWebApplication.php(282): AttendanceController->run()
+#9 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/sumit/projects/payrollse/index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Attendance/uploadAttendance?abc=1
+in /home/sumit/projects/payrollse/protected/controllers/AttendanceController.php (121)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 00:32:14 [error] [php] fgetcsv(): 3 is not a valid stream resource (/home/sumit/projects/payrollse/protected/controllers/AttendanceController.php:121)
+Stack trace:
+#0 /home/sumit/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/sumit/yii/framework/web/filters/CFilterChain.php(133): AttendanceController->runAction()
+#2 /home/sumit/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/sumit/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /home/sumit/yii/framework/web/filters/CInlineFilter.php(58): AttendanceController->filterAccessControl()
+#5 /home/sumit/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /home/sumit/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/sumit/yii/framework/web/CController.php(265): AttendanceController->runActionWithFilters()
+#8 /home/sumit/yii/framework/web/CWebApplication.php(282): AttendanceController->run()
+#9 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/sumit/projects/payrollse/index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Attendance/uploadAttendance?abc=1
+in /home/sumit/projects/payrollse/protected/controllers/AttendanceController.php (121)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 00:39:06 [error] [php] explode() expects at least 2 parameters, 1 given (/home/sumit/projects/payrollse/protected/controllers/AttendanceController.php:124)
+Stack trace:
+#0 /home/sumit/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/sumit/yii/framework/web/filters/CFilterChain.php(133): AttendanceController->runAction()
+#2 /home/sumit/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/sumit/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /home/sumit/yii/framework/web/filters/CInlineFilter.php(58): AttendanceController->filterAccessControl()
+#5 /home/sumit/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /home/sumit/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/sumit/yii/framework/web/CController.php(265): AttendanceController->runActionWithFilters()
+#8 /home/sumit/yii/framework/web/CWebApplication.php(282): AttendanceController->run()
+#9 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/sumit/projects/payrollse/index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Attendance/uploadAttendance?abc=1
+in /home/sumit/projects/payrollse/protected/controllers/AttendanceController.php (124)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 00:39:17 [error] [php] explode() expects parameter 1 to be string, array given (/home/sumit/projects/payrollse/protected/controllers/AttendanceController.php:124)
+Stack trace:
+#0 /home/sumit/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/sumit/yii/framework/web/filters/CFilterChain.php(133): AttendanceController->runAction()
+#2 /home/sumit/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/sumit/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /home/sumit/yii/framework/web/filters/CInlineFilter.php(58): AttendanceController->filterAccessControl()
+#5 /home/sumit/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /home/sumit/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/sumit/yii/framework/web/CController.php(265): AttendanceController->runActionWithFilters()
+#8 /home/sumit/yii/framework/web/CWebApplication.php(282): AttendanceController->run()
+#9 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/sumit/projects/payrollse/index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Attendance/uploadAttendance?abc=1
+in /home/sumit/projects/payrollse/protected/controllers/AttendanceController.php (124)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 00:41:08 [error] [php] explode(): Empty delimiter (/home/sumit/projects/payrollse/protected/controllers/AttendanceController.php:124)
+Stack trace:
+#0 /home/sumit/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/sumit/yii/framework/web/filters/CFilterChain.php(133): AttendanceController->runAction()
+#2 /home/sumit/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/sumit/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /home/sumit/yii/framework/web/filters/CInlineFilter.php(58): AttendanceController->filterAccessControl()
+#5 /home/sumit/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /home/sumit/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/sumit/yii/framework/web/CController.php(265): AttendanceController->runActionWithFilters()
+#8 /home/sumit/yii/framework/web/CWebApplication.php(282): AttendanceController->run()
+#9 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/sumit/projects/payrollse/index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Attendance/uploadAttendance?abc=1
+in /home/sumit/projects/payrollse/protected/controllers/AttendanceController.php (124)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 00:44:08 [error] [exception.CException] exception 'CException' with message 'Property "Staff.id" is not defined.' in /home/sumit/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/sumit/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('id')
+#1 /home/sumit/projects/payrollse/protected/controllers/AttendanceController.php(124): CActiveRecord->__get('id')
+#2 /home/sumit/yii/framework/web/actions/CInlineAction.php(49): AttendanceController->actionuploadAttendance()
+#3 /home/sumit/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/sumit/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/sumit/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/sumit/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/sumit/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/sumit/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/sumit/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/sumit/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/sumit/yii/framework/web/CWebApplication.php(282): CController->run('uploadAttendanc...')
+#12 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Attendance/uplo...')
+#13 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/payrollse/Attendance/uploadAttendance?abc=1
+HTTP_REFERER=http://localhost/payrollse/Attendance/uploadAttendance?abc=1
+---
+2016/02/06 00:47:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/edit/1
+---
+2016/02/06 00:47:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:47:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:47:16 [warning] [application] Failed to set unsafe attribute "selfPf" of "Staff".
+in /home/sumit/projects/payrollse/protected/controllers/StaffController.php (359)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 00:47:16 [warning] [application] Failed to set unsafe attribute "uuid" of "Staff".
+in /home/sumit/projects/payrollse/protected/controllers/StaffController.php (359)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 00:47:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Site
+---
+2016/02/06 00:47:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/user-pics/2382-Screenshot from 2015-12-07 21:22:05.png".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/user-pic...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/images/user-pics/2382-Screenshot%20from%202015-12-07%2021:22:05.png
+HTTP_REFERER=http://localhost/payrollse/Site
+---
+2016/02/06 00:47:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/user-pics/2382-Screenshot from 2015-12-07 21:22:05.png".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/user-pic...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/images/user-pics/2382-Screenshot%20from%202015-12-07%2021:22:05.png
+HTTP_REFERER=http://localhost/payrollse/Site
+---
+2016/02/06 00:47:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:47:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:47:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/edit/1
+---
+2016/02/06 00:47:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:47:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:48:18 [warning] [application] Failed to set unsafe attribute "selfPf" of "Staff".
+in /home/sumit/projects/payrollse/protected/controllers/StaffController.php (359)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 00:48:18 [warning] [application] Failed to set unsafe attribute "uuid" of "Staff".
+in /home/sumit/projects/payrollse/protected/controllers/StaffController.php (359)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 00:48:19 [warning] [application] Failed to set unsafe attribute "selfPf" of "Staff".
+in /home/sumit/projects/payrollse/protected/controllers/StaffController.php (359)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 00:48:19 [warning] [application] Failed to set unsafe attribute "uuid" of "Staff".
+in /home/sumit/projects/payrollse/protected/controllers/StaffController.php (359)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 00:48:50 [warning] [application] Failed to set unsafe attribute "selfPf" of "Staff".
+in /home/sumit/projects/payrollse/protected/controllers/StaffController.php (359)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 00:48:50 [warning] [application] Failed to set unsafe attribute "uuid" of "Staff".
+in /home/sumit/projects/payrollse/protected/controllers/StaffController.php (359)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 00:49:07 [warning] [application] Failed to set unsafe attribute "selfPf" of "Staff".
+in /home/sumit/projects/payrollse/protected/controllers/StaffController.php (359)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 00:49:07 [warning] [application] Failed to set unsafe attribute "uuid" of "Staff".
+in /home/sumit/projects/payrollse/protected/controllers/StaffController.php (359)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 00:49:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Site
+---
+2016/02/06 00:49:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/user-pics/2382-Screenshot from 2015-12-07 21:22:05.png".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/user-pic...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/images/user-pics/2382-Screenshot%20from%202015-12-07%2021:22:05.png
+HTTP_REFERER=http://localhost/payrollse/Site
+---
+2016/02/06 00:49:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/user-pics/2382-Screenshot from 2015-12-07 21:22:05.png".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/user-pic...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/images/user-pics/2382-Screenshot%20from%202015-12-07%2021:22:05.png
+HTTP_REFERER=http://localhost/payrollse/Site
+---
+2016/02/06 00:49:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:49:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:49:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/edit/1
+---
+2016/02/06 00:49:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:49:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:49:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/admin
+---
+2016/02/06 00:49:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:49:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:49:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/update/3
+---
+2016/02/06 00:49:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:49:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:49:20 [warning] [application] Failed to set unsafe attribute "uuid" of "Staff".
+in /home/sumit/projects/payrollse/protected/controllers/StaffController.php (212)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 00:49:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/staff/admin/3
+---
+2016/02/06 00:49:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:49:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:49:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/3
+---
+2016/02/06 00:49:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:49:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:49:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/viewAllowance/3
+---
+2016/02/06 00:49:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:49:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:49:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/blackboot/css/jquery.circlify.css".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/blackboo...')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/themes/blackboot/css/jquery.circlify.css
+HTTP_REFERER=http://localhost/payrollse/Staff/view/3
+---
+2016/02/06 00:49:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.woff".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.woff?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:49:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome-4.1.0/font/fontawesome-webfont.ttf".' in /home/sumit/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('font-awesome-4....')
+#1 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sumit/projects/payrollse/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/payrollse/font-awesome-4.1.0/font/fontawesome-webfont.ttf?v=3.2.1
+HTTP_REFERER=http://localhost/payrollse/font-awesome-4.1.0/css/font-awesome.css
+---
+2016/02/06 00:50:44 [error] [php] preg_replace() expects at least 3 parameters, 2 given (/home/sumit/projects/payrollse/protected/controllers/AttendanceController.php:125)
+Stack trace:
+#0 /home/sumit/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/sumit/yii/framework/web/filters/CFilterChain.php(133): AttendanceController->runAction()
+#2 /home/sumit/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/sumit/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /home/sumit/yii/framework/web/filters/CInlineFilter.php(58): AttendanceController->filterAccessControl()
+#5 /home/sumit/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /home/sumit/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/sumit/yii/framework/web/CController.php(265): AttendanceController->runActionWithFilters()
+#8 /home/sumit/yii/framework/web/CWebApplication.php(282): AttendanceController->run()
+#9 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/sumit/projects/payrollse/index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Attendance/uploadAttendance?abc=1
+in /home/sumit/projects/payrollse/protected/controllers/AttendanceController.php (125)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 01:55:17 [error] [php] array_filter() expects parameter 1 to be array, string given (/home/sumit/projects/payrollse/protected/controllers/AttendanceController.php:126)
+Stack trace:
+#0 /home/sumit/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/sumit/yii/framework/web/filters/CFilterChain.php(133): AttendanceController->runAction()
+#2 /home/sumit/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/sumit/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /home/sumit/yii/framework/web/filters/CInlineFilter.php(58): AttendanceController->filterAccessControl()
+#5 /home/sumit/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /home/sumit/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/sumit/yii/framework/web/CController.php(265): AttendanceController->runActionWithFilters()
+#8 /home/sumit/yii/framework/web/CWebApplication.php(282): AttendanceController->run()
+#9 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/sumit/projects/payrollse/index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Attendance/uploadAttendance?abc=1
+in /home/sumit/projects/payrollse/protected/controllers/AttendanceController.php (126)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 02:01:58 [error] [php] preg_replace(): Unknown modifier ']' (/home/sumit/projects/payrollse/protected/controllers/AttendanceController.php:130)
+Stack trace:
+#0 /home/sumit/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/sumit/yii/framework/web/filters/CFilterChain.php(133): AttendanceController->runAction()
+#2 /home/sumit/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/sumit/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /home/sumit/yii/framework/web/filters/CInlineFilter.php(58): AttendanceController->filterAccessControl()
+#5 /home/sumit/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /home/sumit/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/sumit/yii/framework/web/CController.php(265): AttendanceController->runActionWithFilters()
+#8 /home/sumit/yii/framework/web/CWebApplication.php(282): AttendanceController->run()
+#9 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/sumit/projects/payrollse/index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Attendance/uploadAttendance?abc=1
+in /home/sumit/projects/payrollse/protected/controllers/AttendanceController.php (130)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 02:17:14 [error] [php] strlen() expects parameter 1 to be string, array given (/home/sumit/projects/payrollse/protected/controllers/AttendanceController.php:142)
+Stack trace:
+#0 /home/sumit/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/sumit/yii/framework/web/filters/CFilterChain.php(133): AttendanceController->runAction()
+#2 /home/sumit/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/sumit/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /home/sumit/yii/framework/web/filters/CInlineFilter.php(58): AttendanceController->filterAccessControl()
+#5 /home/sumit/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /home/sumit/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/sumit/yii/framework/web/CController.php(265): AttendanceController->runActionWithFilters()
+#8 /home/sumit/yii/framework/web/CWebApplication.php(282): AttendanceController->run()
+#9 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/sumit/projects/payrollse/index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Attendance/uploadAttendance?abc=1
+in /home/sumit/projects/payrollse/protected/controllers/AttendanceController.php (142)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 02:30:59 [error] [php] strlen() expects parameter 1 to be string, array given (/home/sumit/projects/payrollse/protected/controllers/AttendanceController.php:146)
+Stack trace:
+#0 /home/sumit/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/sumit/yii/framework/web/filters/CFilterChain.php(133): AttendanceController->runAction()
+#2 /home/sumit/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/sumit/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /home/sumit/yii/framework/web/filters/CInlineFilter.php(58): AttendanceController->filterAccessControl()
+#5 /home/sumit/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /home/sumit/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/sumit/yii/framework/web/CController.php(265): AttendanceController->runActionWithFilters()
+#8 /home/sumit/yii/framework/web/CWebApplication.php(282): AttendanceController->run()
+#9 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/sumit/projects/payrollse/index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Attendance/uploadAttendance?abc=1
+in /home/sumit/projects/payrollse/protected/controllers/AttendanceController.php (146)
+in /home/sumit/projects/payrollse/index.php (13)
+2016/02/06 02:39:18 [error] [php] preg_split(): Compilation failed: nothing to repeat at offset 0 (/home/sumit/projects/payrollse/protected/controllers/AttendanceController.php:128)
+Stack trace:
+#0 /home/sumit/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/sumit/yii/framework/web/filters/CFilterChain.php(133): AttendanceController->runAction()
+#2 /home/sumit/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/sumit/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /home/sumit/yii/framework/web/filters/CInlineFilter.php(58): AttendanceController->filterAccessControl()
+#5 /home/sumit/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /home/sumit/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/sumit/yii/framework/web/CController.php(265): AttendanceController->runActionWithFilters()
+#8 /home/sumit/yii/framework/web/CWebApplication.php(282): AttendanceController->run()
+#9 /home/sumit/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/sumit/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/sumit/projects/payrollse/index.php(13): CWebApplication->run()
+REQUEST_URI=/payrollse/Attendance/uploadAttendance?abc=1
+in /home/sumit/projects/payrollse/protected/controllers/AttendanceController.php (128)
+in /home/sumit/projects/payrollse/index.php (13)

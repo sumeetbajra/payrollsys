@@ -357,6 +357,7 @@ class StaffController extends Controller
 		$model = Staff::model()->findByPk($id);
 		if(isset($_POST['Staff'])){
 			$model->attributes = $_POST['Staff'];
+			$model->uuid = $_POST['Staff']['uuid'];
 			$selfpf =  StaffSelfPf::model()->findByAttributes(array('staff_id'=>$id), array('order'=>'effective_date DESC'));
 			if(empty($selfpf) ||  $selfpf->amount != $_POST['Staff']['selfPf']){
 				$selfpf = new StaffSelfPf;

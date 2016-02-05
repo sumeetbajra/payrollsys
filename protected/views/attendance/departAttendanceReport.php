@@ -5,6 +5,7 @@ $this->menu=array(
     array('label'=>'<i class="icon-group"></i>Manage designation', 'url'=>Yii::app()->controller->createUrl('/designation/admin'), 'linkOptions'=>array()),
     array('label'=>'<i class="icon-tags"></i>Manage allowances', 'url'=>Yii::app()->controller->createUrl('/allowances/admin'), 'linkOptions'=>array()),
     array('label'=>'<i class="icon-search"></i>Custom search', 'url'=>Yii::app()->controller->createUrl('/Attendance/customAttendanceReport'), 'linkOptions'=>array()),
+    array('label'=>'<i class="icon-upload-alt"></i>Upload Attendance Data', 'url'=>Yii::app()->controller->createUrl('/Attendance/uploadAttendance'), 'linkOptions'=>array()),
     array('label'=>'<i class="icon-download-alt"></i>Download as pdf', 'url'=>Yii::app()->controller->createUrl('/Staff/departWeeklyAttendance/'), 'linkOptions'=>array('target'=>'_new')),
     ); 
 

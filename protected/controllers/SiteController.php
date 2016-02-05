@@ -157,18 +157,6 @@ class SiteController extends Controller
 	 */
 	public function actionLogout()
 	{
-		$time = time();
-		$user = Attendance::model()->findByPk(Yii::app()->user->getState('login_id'));
-		$userLogoutTime = StaffOfficeTime::model()->findByAttributes(array('staff_id'=>Yii::app()->session['uid']), array('order'=>'effective_date DESC'))->end_time;
-		if(empty($user->logout) && !empty($user)){
-			$user->logout = $time;
-			if($time <=  strtotime($userLogoutTime)){
-				$user->logout_status = 'Early';
-			}else{
-				$user->logout_status = 'On time';
-			}
-			$user->save(false);
-		}
 		Yii::app()->user->logout();		
 		$this->redirect(Yii::app()->homeUrl);
 	}

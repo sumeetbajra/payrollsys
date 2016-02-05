@@ -32,44 +32,7 @@ class UserIdentity extends CUserIdentity
 
 		$username = $this->username;
 		$password = $this->password;
-		$user = Staff::model()->findByAttributes(array('username'=>$username));
-		if(!empty($user) && $user->password == hash('sha256', (hash('sha256', $user->created_date)).$this->password)){
-			$attendance = Attendance::model()->findByAttributes(array('staff_id'=>$user->staff_id), array('order'=>'login DESC'));
-			if(empty($attendance)){
-				$attendance = new Attendance;
-				$attendance->staff_id = $user->staff_id;
-				$attendance->login = time();
-				/*print_r($attendance->login);
-				echo "<br>";
-				print_r(Staff::model()->findByPk($user->staff_id)->office_start_time);
-				exit;*/
-				if($attendance->login <= strtotime(StaffOfficeTime::model()->findByAttributes(array('staff_id'=>$user->staff_id), array('order'=>'effective_date DESC'))->start_time)){
-					$attendance->login_status = 'On time';
-				}else{
-					$attendance->login_status = 'Late';
-				}
-				$attendance->save();
-				Yii::app()->user->setState('login_id', Yii::app()->db->getLastInsertId());
-			}else{
-				$date1 = date('Y-m-d', $attendance->login);
-				if($date1 != date('Y-m-d', time())){
-					$attendance = new Attendance;
-					$attendance->staff_id = $user->staff_id;
-					$attendance->login = time();
-					if(time() <= strtotime(StaffOfficeTime::model()->findByAttributes(array('staff_id'=>$user->staff_id), array('order'=>'effective_date DESC'))->start_time)){
-						$attendance->login_status = 'On time';
-					}else{
-						$attendance->login_status = 'Late';
-					}
-					/*echo "<pre>";
-					print_r($attendance->getErrors());
-					exit;*/
-					$attendance->save();
-					Yii::app()->user->setState('login_id', $attendance->id);
-				}elseif(empty($attendance->logout)){
-					Yii::app()->user->setState('login_id', $attendance->id);
-				}
-			}			
+				
 			$users=array(
 				// username => password
 				$user->username => $user->password,

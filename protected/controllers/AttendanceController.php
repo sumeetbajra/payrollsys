@@ -36,7 +36,7 @@ class AttendanceController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update', 'admin', 'delete', 'departAttendanceReport', 'customAttendanceReport', 'getAttendance'),
+				'actions'=>array('create','update', 'admin', 'delete', 'departAttendanceReport', 'customAttendanceReport', 'getAttendance', 'uploadAttendance'),
 				'users'=>$superadmin,
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -102,6 +102,127 @@ class AttendanceController extends Controller
 			}
 			echo json_encode($response);
 		}
+	}
+
+	/**
+	 * upload attendance data as csv
+	 */
+	public function actionuploadAttendance() {
+
+		$model=new Attendance;
+		$uidKey = 0;
+		$arrangedData = [];
+		$dateTimeKey = 0;
+
+		if(isset($_POST['file']))
+		{
+			$file=CUploadedFile::getInstanceByName('csvfile');
+  			// To validate
+			if($file) {
+				$transaction = Yii::app()->db->beginTransaction();
+				$handle = fopen("$file->tempName", "r");
+				$row = 1;
+				$record = array();
+				while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+
+					$data[0] = preg_split('/[\t]/', $data[0]); 
+
+					if($row == 1){						
+						for ($i=0; $i < sizeof($data[0]); $i++) { 
+							$data[0][$i] = preg_replace("/[^a-zA-Z0-9\/:]+/", "", $data[0][$i]);
+						}
+						$data[0] = array_filter($data[0]);
+
+						$uidKey = array_search('UID', $data[0]);
+						$dateTimeKey = array_search('DateTime', $data[0]);
+					}else {
+						$attendanceDay = $data[0];
+						
+						for ($i=0; $i < sizeof($attendanceDay); $i++) { 
+							$attendanceDay[$i] = preg_replace("/[^a-zA-Z0-9\/:]+/", "", $attendanceDay[$i]);
+						}
+
+						$a = array_filter($attendanceDay, function($val) { 
+								return ($val || is_numeric($val));
+							}
+						);
+
+						if(strlen($a[0]) != 0) {
+							$uuid = base_convert($a[$uidKey],8,10);							
+							$recordRow['staff'] = Staff::model()->findByAttributes(['uuid' => $uuid])->staff_id;
+							$recordRow['datetime'] = strtotime($a[$dateTimeKey]);
+							array_push($record, $recordRow);
+						}
+					}
+
+					$row++;
+				}
+			}   
+
+			$days = [];
+			for ($i=0; $i < sizeof($record); $i++) { 
+				if(!in_array($record[$i]['day'], $days)) {
+					array_push($days, $record[$i]['day']);
+				}
+			}
+
+			$sortByDate = [];
+
+			for ($i=0; $i < sizeof($days); $i++) { 
+				for ($j=0; $j < sizeof($record) ; $j++) { 
+					if($record[$j]['day'] == $days[$i]) {
+						$sortByDate[$days[$i]][$record[$j]['staff']] = [
+							'time' => $record[$j]['datetime']
+						];
+					}
+				}
+			}
+
+			echo "<pre>";
+			print_r($sortByDate);
+			exit;     
+
+			$user = Staff::model()->findByAttributes(array('username'=>$username));
+		if(!empty($user) && $user->password == hash('sha256', (hash('sha256', $user->created_date)).$this->password)){
+			$attendance = Attendance::model()->findByAttributes(array('staff_id'=>$user->staff_id), array('order'=>'login DESC'));
+			if(empty($attendance)){
+				$attendance = new Attendance;
+				$attendance->staff_id = $user->staff_id;
+				$attendance->login = time();
+				/*print_r($attendance->login);
+				echo "<br>";
+				print_r(Staff::model()->findByPk($user->staff_id)->office_start_time);
+				exit;*/
+				if($attendance->login <= strtotime(StaffOfficeTime::model()->findByAttributes(array('staff_id'=>$user->staff_id), array('order'=>'effective_date DESC'))->start_time)){
+					$attendance->login_status = 'On time';
+				}else{
+					$attendance->login_status = 'Late';
+				}
+				$attendance->save();
+				Yii::app()->user->setState('login_id', Yii::app()->db->getLastInsertId());
+			}else{
+				$date1 = date('Y-m-d', $attendance->login);
+				if($date1 != date('Y-m-d', time())){
+					$attendance = new Attendance;
+					$attendance->staff_id = $user->staff_id;
+					$attendance->login = time();
+					if(time() <= strtotime(StaffOfficeTime::model()->findByAttributes(array('staff_id'=>$user->staff_id), array('order'=>'effective_date DESC'))->start_time)){
+						$attendance->login_status = 'On time';
+					}else{
+						$attendance->login_status = 'Late';
+					}
+					/*echo "<pre>";
+					print_r($attendance->getErrors());
+					exit;*/
+					$attendance->save();
+					Yii::app()->user->setState('login_id', $attendance->id);
+				}elseif(empty($attendance->logout)){
+					Yii::app()->user->setState('login_id', $attendance->id);
+				}
+			}	           
+		}  
+
+		$this->render('uploadAttendance');
 	}
 	// Uncomment the following methods and override them if needed
 	/*
