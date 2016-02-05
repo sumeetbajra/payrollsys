@@ -46,6 +46,7 @@ class Staff extends CActiveRecord
 			array('fname, lname, address, contact, username, password, email', 'length', 'max'=>100),
 			array('profile_pic', 'length', 'max'=>200),
 			array('email', 'unique', 'message' => 'Email address already in use', 'on' => 'insert'),
+			array('uuid', 'unique', 'message' => 'UUID already in use', 'on' => 'insert'),
 			array('email', 'email'),
 			array('fname', 'match', 'pattern' => '/^[a-zA-Z\s]+$/', 'message' => 'First Name can only contain alphabet characters'),
 			array('lname', 'match', 'pattern' => '/^[a-zA-Z\s]+$/', 'message' => 'Last Name can only contain alphabet characters'),
@@ -93,6 +94,7 @@ class Staff extends CActiveRecord
 			'token' => 'Token',
 			'created_date' => 'Created Date',
 			'role'=>'Role',
+			'uuid'=>'UUID'
 		);
 	}
 
@@ -199,7 +201,11 @@ class Staff extends CActiveRecord
 			$result = Yii::app()->db->createCommand($sql)->queryRow();
 		//}
 		if(!empty($result['percentage'])){
-			return $result['percentage'];
+			if((time() - Staff::model()->findByPk($id)->join_date)/86400 <= 30){
+				return 0;
+			}else{
+				return $result['percentage'];
+			}
 		}else{
 			return "0";
 		}

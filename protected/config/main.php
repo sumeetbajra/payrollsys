@@ -8,7 +8,9 @@
 // 
 
 
-Yii::setPathOfAlias('bootstrap', dirname(__DIR__).'\extensions\bootstrap');
+
+
+Yii::setPathOfAlias('bootstrap', dirname(__DIR__).'/extensions/bootstrap');
 Yii::setPathOfAlias('ecalendarview', dirname(__FILE__) . '/../extensions/ecalendarview');
 Yii::setPathOfAlias('editable', dirname(__FILE__).'/../extensions/x-editable');
 
@@ -131,7 +133,7 @@ return array(
 			'connectionString' => 'mysql:host=localhost;dbname=payroll_se',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => '',
+			'password' => 'password',
 			'charset' => 'utf8',
 		),
 		

@@ -151,6 +151,11 @@ echo CHtml::dropDownList('grades', $model->grade, $data, array('prompt'=>'Select
 ?></td>
 </tr>
 
+<tr>
+    <td><?php echo $form->labelEx($model, 'uuid', array('class'=>'')) ?></td>
+    <td><?php echo $form->textField($model, 'uuid', array('class'=>'span7', 'placeholder'=>'Device UUID')) ?></td>
+</tr>   
+
 </table>
 
 <p class="note">Fields with <span class="required">*</span> are required.</p>

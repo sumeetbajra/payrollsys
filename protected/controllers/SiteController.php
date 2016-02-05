@@ -1,5 +1,8 @@
 <?php
-
+// $time = time();
+// print_r($time);
+// echo "<br>";
+// die(hash('sha256', (hash('sha256', $time)).'password'));
 class SiteController extends Controller
 {
 	/**

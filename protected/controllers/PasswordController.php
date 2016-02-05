@@ -10,10 +10,10 @@ class PasswordController extends Controller
 		//$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 		$mail->isSMTP();                                      // Set mailer to use SMTP
-		$mail->Host = 'smtp.ntc.net.np';  // Specify main and backup SMTP servers
+		$mail->Host = 'smtp.subisu.net.np';  // Specify main and backup SMTP servers
 		//$mail->SMTPAuth = true;                               // Enable SMTP authentication
-		$mail->Username = 'sbajracharya@mdevsolutions.com';                 // SMTP username
-		$mail->Password = 'nazionale55';                           // SMTP password
+		$mail->Username = '';                 // SMTP username
+		$mail->Password = '';                           // SMTP password
 		//$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 		$mail->Port = 25;                                    // TCP port to connect to
 		$mail->SMTPDebug = 1;
@@ -69,7 +69,7 @@ class PasswordController extends Controller
 	}
 
 	public function actionSendPassword($email, $password){
-		require Yii::app()->baseUrl . '/../assets/PHPMailer-master/PHPMailerAutoload.php';
+		require_once Yii::app()->basePath . '/extensions/PHPMailer/PHPMailerAutoload.php';
 		$mail = new PHPMailer;
 
 		//$mail->SMTPDebug = 3;                               // Enable verbose debug output
@@ -104,9 +104,5 @@ class PasswordController extends Controller
 				$this->redirect(Yii::app()->createUrl('Site/Index'));
 			}
 		}
-
 	}
-
-
-	
 }

@@ -86,12 +86,14 @@ $this->menu=array(
     <td><?php echo $form->labelEx($model, 'contact', array('class'=>'')) ?></td>
     <td><?php echo $form->textField($model, 'contact', array('class'=>'span7')) ?></td>
 </tr>
-
 <tr>
     <td><?php echo $form->labelEx($model, 'email', array('class'=>'')) ?></td>
     <td><?php echo $form->textField($model, 'email', array('class'=>'span7')) ?></td>
 </tr>
-
+<tr>
+     <td><?php echo $form->labelEx($model, 'marital_status', array('class'=>'')) ?></td>
+    <td><?php echo $form->dropDownList($model, 'marital_status', array(''=>'--Marital Status', 'Single'=>'Single', 'Married'=>'Married', 'Divorced'=>'Divorced'), array('class'=>'span7')); ?></td>
+</tr>
 <tr>
     <td><?php echo $form->labelEx($model, 'profile_pic', array('class'=>'')) ?></td>
     <td><?php echo $form->fileField($model, 'profile_pic', array('class'=>'span7')) ?></td>
@@ -100,7 +102,7 @@ $this->menu=array(
 <tr>
     <td><b>Staff Self pf</b></td>
     <?php
-    $selfpf = StaffSelfpf::model()->findAllByAttributes(array('staff_id'=>$model->staff_id), array('order'=>'effective_date DESC'));
+    $selfpf = StaffSelfPf::model()->findAllByAttributes(array('staff_id'=>$model->staff_id), array('order'=>'effective_date DESC'));
     if(empty($selfpf)){
         $selfpf = 0;
     }else{
@@ -109,6 +111,10 @@ $this->menu=array(
     ?>
     <td><?php echo $form->textFieldRow($model, 'selfPf', array('class'=>'span7', 'prepend'=>'Rs.', 'value'=>$selfpf)) ?></td>
 </tr>
+<tr>
+    <td><?php echo $form->labelEx($model, 'uuid', array('class'=>'')) ?></td>
+    <td><?php echo $form->textField($model, 'uuid', array('class'=>'span7', 'placeholder'=>'Device UUID')) ?></td>
+</tr>   
 </table>
    <?php $form->widget('bootstrap.widgets.TbButton', array('buttonType'=>'submit', 'id' => 'sbutton','type'=>'primary', 'label'=>'Update')); ?>
    

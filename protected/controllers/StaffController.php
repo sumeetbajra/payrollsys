@@ -31,10 +31,11 @@ class StaffController extends Controller
 	    	foreach ($superadmins as $value) {
 	    		$superadmin[] = $value->username;
 	    	}
-	    	$excos = Staff::model()->findAllByAttributes(array('role'=>'exco'), array('select'=>'username'));
-	    	foreach ($excos as $value) {
-	    		$exco[] = $value->username;
-	    	}
+	    	// $excos = Staff::model()->findAllByAttributes(array('role'=>'exco'), array('select'=>'username'));
+	    	// foreach ($excos as $value) {
+	    	// 	$exco[] = $value->username;
+	    	// }
+	    	$exco = array();
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
 				'actions'=>array('index','view', 'loadGrades'),

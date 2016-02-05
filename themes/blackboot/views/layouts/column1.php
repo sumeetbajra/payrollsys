@@ -69,7 +69,11 @@ if(empty($login_id)){
         Logout status: 
         <?php 
         $logout = StaffOfficeTime::model()->findAllByAttributes(array('staff_id'=>Yii::app()->session['uid']), array('order'=>'effective_date DESC'));
-        $logout = $logout[0]->end_time;
+        if(isset($logout[0])){
+            $logout = $logout[0]->end_time;
+        }else{
+            $logout = 0;
+        }
         if(date('H:i:s', time()) < $logout){
             echo "Early";
         }else{

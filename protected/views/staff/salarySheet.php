@@ -87,4 +87,4 @@
     </tbody>
 </table>
 
-
+<a class="btn btn-primary" href="#" target="_blank"><i class="icon-download-alt"></i> Download as pdf</a><br><br>
