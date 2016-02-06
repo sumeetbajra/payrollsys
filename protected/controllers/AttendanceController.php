@@ -119,15 +119,16 @@ class AttendanceController extends Controller
 			$file=CUploadedFile::getInstanceByName('csvfile');
   			// To validate
 			if($file) {
-				$transaction = Yii::app()->db->beginTransaction();
 				$handle = fopen("$file->tempName", "r");
 				$row = 1;
 				$record = array();
 				while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
 
+
 					$data[0] = preg_split('/[\t]/', $data[0]); 
 
-					if($row == 1){						
+					if($row == 1){		
+
 						for ($i=0; $i < sizeof($data[0]); $i++) { 
 							$data[0][$i] = preg_replace("/[^a-zA-Z0-9\/:]+/", "", $data[0][$i]);
 						}
@@ -166,61 +167,92 @@ class AttendanceController extends Controller
 				}
 			}
 
-			$sortByDate = [];
-
 			for ($i=0; $i < sizeof($days); $i++) { 
 				for ($j=0; $j < sizeof($record) ; $j++) { 
 					if($record[$j]['day'] == $days[$i]) {
-						$sortByDate[$days[$i]][$record[$j]['staff']] = [
-							'time' => $record[$j]['datetime']
-						];
+						$sortByDate[$days[$i]][$record[$j]['staff']][] = $record[$j]['datetime'];
 					}
 				}
 			}
 
-			echo "<pre>";
-			print_r($sortByDate);
-			exit;     
-
-			$user = Staff::model()->findByAttributes(array('username'=>$username));
-		if(!empty($user) && $user->password == hash('sha256', (hash('sha256', $user->created_date)).$this->password)){
-			$attendance = Attendance::model()->findByAttributes(array('staff_id'=>$user->staff_id), array('order'=>'login DESC'));
-			if(empty($attendance)){
-				$attendance = new Attendance;
-				$attendance->staff_id = $user->staff_id;
-				$attendance->login = time();
-				/*print_r($attendance->login);
-				echo "<br>";
-				print_r(Staff::model()->findByPk($user->staff_id)->office_start_time);
-				exit;*/
-				if($attendance->login <= strtotime(StaffOfficeTime::model()->findByAttributes(array('staff_id'=>$user->staff_id), array('order'=>'effective_date DESC'))->start_time)){
-					$attendance->login_status = 'On time';
-				}else{
-					$attendance->login_status = 'Late';
-				}
-				$attendance->save();
-				Yii::app()->user->setState('login_id', Yii::app()->db->getLastInsertId());
-			}else{
-				$date1 = date('Y-m-d', $attendance->login);
-				if($date1 != date('Y-m-d', time())){
+			foreach ($sortByDate as $b) {
+				foreach ($b as $userId => $data) {
 					$attendance = new Attendance;
-					$attendance->staff_id = $user->staff_id;
-					$attendance->login = time();
-					if(time() <= strtotime(StaffOfficeTime::model()->findByAttributes(array('staff_id'=>$user->staff_id), array('order'=>'effective_date DESC'))->start_time)){
-						$attendance->login_status = 'On time';
-					}else{
-						$attendance->login_status = 'Late';
+					$newDay = true;
+					for ($i=0; $i < sizeof($data) ; $i++) { 
+						if($newDay) {
+							$attendance = new Attendance;
+							$attendance->staff_id = $userId;
+							$attendance->login = $data[$i];
+							if($attendance->login <= strtotime(StaffOfficeTime::model()->findByAttributes(array('staff_id'=>$userId), array('order'=>'effective_date DESC'))->start_time)){
+								$attendance->login_status = 'On time';
+							}else{
+								$attendance->login_status = 'Late';
+							}
+							$newDay = false;
+						}
+
+						if ($data[$i+1] && date('Y-m-d', $data[$i+1]) == date('Y-m-d', $attendance->login)) {
+							$attendance->logout = $data[$i+1];		
+							$userLogoutTime = StaffOfficeTime::model()->findByAttributes(array('staff_id'=>$userId), array('order'=>'effective_date DESC'))->end_time;
+							if($attendance->logout <=  strtotime($userLogoutTime)){
+								$attendance->logout_status = 'Early';
+							}else{
+								$attendance->logout_status = 'On time';
+							}
+						}else{
+							$newDay = true;
+							if(!$attendance->save()) {
+								print_r($attendance->errors());
+								exit;
+							}
+						}
 					}
-					/*echo "<pre>";
-					print_r($attendance->getErrors());
-					exit;*/
-					$attendance->save();
-					Yii::app()->user->setState('login_id', $attendance->id);
-				}elseif(empty($attendance->logout)){
-					Yii::app()->user->setState('login_id', $attendance->id);
 				}
-			}	           
+			}
+			Yii::app()->user->setFlash('success', 'Attendance record has been uploaded succesfully.');
+			$this->redirect(Yii::app()->createUrl('Site'));
 		}  
+
+		// 	$user = Staff::model()->findByAttributes(array('username'=>$username));
+		// if(!empty($user) && $user->password == hash('sha256', (hash('sha256', $user->created_date)).$this->password)){
+		// 	$attendance = Attendance::model()->findByAttributes(array('staff_id'=>$user->staff_id), array('order'=>'login DESC'));
+		// 	if(empty($attendance)){
+		// 		$attendance = new Attendance;
+		// 		$attendance->staff_id = $user->staff_id;
+		// 		$attendance->login = time();
+		// 		/*print_r($attendance->login);
+		// 		echo "<br>";
+		// 		print_r(Staff::model()->findByPk($user->staff_id)->office_start_time);
+		// 		exit;*/
+		// 		if($attendance->login <= strtotime(StaffOfficeTime::model()->findByAttributes(array('staff_id'=>$user->staff_id), array('order'=>'effective_date DESC'))->start_time)){
+		// 			$attendance->login_status = 'On time';
+		// 		}else{
+		// 			$attendance->login_status = 'Late';
+		// 		}
+		// 		$attendance->save();
+		// 		Yii::app()->user->setState('login_id', Yii::app()->db->getLastInsertId());
+		// 	}else{
+		// 		$date1 = date('Y-m-d', $attendance->login);
+		// 		if($date1 != date('Y-m-d', time())){
+		// 			$attendance = new Attendance;
+		// 			$attendance->staff_id = $user->staff_id;
+		// 			$attendance->login = time();
+		// 			if(time() <= strtotime(StaffOfficeTime::model()->findByAttributes(array('staff_id'=>$user->staff_id), array('order'=>'effective_date DESC'))->start_time)){
+		// 				$attendance->login_status = 'On time';
+		// 			}else{
+		// 				$attendance->login_status = 'Late';
+		// 			}
+		// 			/*echo "<pre>";
+		// 			print_r($attendance->getErrors());
+		// 			exit;*/
+		// 			$attendance->save();
+		// 			Yii::app()->user->setState('login_id', $attendance->id);
+		// 		}elseif(empty($attendance->logout)){
+		// 			Yii::app()->user->setState('login_id', $attendance->id);
+		// 		}
+		// 	}	           
+		// }  
 
 		$this->render('uploadAttendance');
 	}

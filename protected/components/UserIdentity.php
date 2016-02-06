@@ -32,6 +32,8 @@ class UserIdentity extends CUserIdentity
 
 		$username = $this->username;
 		$password = $this->password;
+		$user = Staff::model()->findByAttributes(array('username'=>$username));
+		if(!empty($user) && $user->password == hash('sha256', (hash('sha256', $user->created_date)).$this->password)){
 				
 			$users=array(
 				// username => password

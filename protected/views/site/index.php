@@ -143,15 +143,26 @@ echo Yii::app()->user->setFlash('info', $info); ?>
 
 <div class="panel time span5" style="border-radius:0; margin:0">
     <div class="panel-head">Attendance time:</div>
-    <span><?php echo date('H:i a', $attendance->login); ?></span>
+    <span><?php 
+    if(isset($attendance->login)) {
+        echo date('H:i a', $attendance->login); 
+        }else{
+            echo "N/A"; 
+            }
+            ?></span>
 </div>
 <div class="panel time span5" style="border-radius:0; margin-right:10px">
     <div class="panel-head">Status:</div>
-    <span><?php if(strtolower($attendance->login_status) == 'late'){?>
+    <span><?php 
+    if(isset($attendance->login)) {
+        if(strtolower($attendance->login_status) == 'late'){?>
         <font color="red"><?php echo $attendance->login_status; ?></font>
     <?php }else{ ?>
         <font color="green"><?php echo $attendance->login_status; ?></font>
-   <?php } ?></span>
+   <?php }
+   }else{
+    echo "N/A";
+    } ?></span>
 </div>
 <div style="clear:both"></div>
 
